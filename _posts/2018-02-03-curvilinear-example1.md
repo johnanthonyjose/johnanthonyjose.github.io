@@ -1,6 +1,7 @@
 ---
-subheadline: About this Theme
+subheadline: In-Class Problem
 title: 'Path in Curvilinear Coordinates'
+mathjax: true
 ---
 Curvilinear Problem Example 2
 
@@ -19,3 +20,52 @@ b.) If the tangential acceleration at point B is directed downward to the right 
 Just like in any of our problems, we try to visualize first the problem before solving it.
 
 <img class="center" src="https://docs.google.com/drawings/d/e/2PACX-1vQjMbD73j9_KiMmq7oeWGkKOHhUWTXvCP4fZF1IKf26vEeqDEP0bt6rzIcLKrOW7Do1V7H5vZ6DG71w/pub?w=470&h=275">
+
+***Step 2: Write the Problem***
+a.)
+normal acceleration, $$a_{normal}$$
+tangential acceleration, $$a_{tan}$$
+
+****Step 3: Guess****
+The first thing you wanna ask yourself is: what are some equations do I know given the problem?
+
+For me, the first equation I can think of is:
+
+$$ a_{total}^{2} = a_{tan}^{2} + a_{normal}^{2} $$
+
+at point B,
+
+$$ 2.5^{2} = a_{tan}^{2} + a_{normal}^{2} $$
+
+After writing equation above, I'm stuck. But, when I think about it, I haven't utilized all the given values:
+
+Recall if I could just imagine bending the curved path into a straight line[put image], then, perhaps, I could the constant acceleration equations I've previously known.
+
+$$ V = V_{o} + at$$
+
+$$ V^2 = V_{o}^2 + 2a\Delta s $$
+
+$$ s = s_{0} + V_ot + \frac{1}{2}at^2 $$ 
+
+Caveat: the acceleration to be used should be the acceleration along the curve.Hence, tangential acceleration more info: [see this link][1]
+
+As the time is not given, the most logical first equation is:
+
+$$ V^2 = V_{o}^2 + 2a_{tan}\Delta s $$
+
+We set the point A as the initial point and point B as the final point, hence:
+
+$$ V^2 = 0 + 2a_{tan} (\frac{400}{3}) $$
+
+We have one more given that we haven't utilized, radius of curvature at point B. It might be:
+
+$$\begin{array}{lcl} 
+a_{normal} & = & \frac{v^2}{\rho} \\ 
+a_{normal} & = & \frac{v^2}{200} \end{array}$$
+
+
+
+
+
+[1]: http://example.com
+
