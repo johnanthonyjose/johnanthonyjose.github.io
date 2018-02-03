@@ -1,0 +1,3897 @@
+@charset "UTF-8";
+/* line 14, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/00_functions/_00_functions.scss */
+#pagination:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Color Variables
+-------------------------------------------------------------------
+
+- Corporate Identity Colorpalette
+- Alerts
+- Grey Scale
+- Basics
+- Code
+
+*/
+/* Corporate Identity Colorpalette
+------------------------------------------------------------------- */
+/* Alerts
+------------------------------------------------------------------- */
+/* Grey Scale
+------------------------------------------------------------------- */
+/* Basics
+------------------------------------------------------------------- */
+/* Topbar Navigation
+------------------------------------------------------------------- */
+/* Footer (Meta and Site-Footer)
+------------------------------------------------------------------- */
+/* Global Variables
+-------------------------------------------------------------------
+
+These settings are needed to set the breakpoints for typography
+and to adjust the masthead
+
+*/
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 33, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 54, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 77, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 97, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 117, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 161, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 169, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 173, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 229, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 252, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 277, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 290, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 302, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 311, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 334, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 346, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 370, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 424, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/02_settings/_00_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* Font Families */
+/* Line-height */
+/* Font Weight */
+/* Modular Scale 1em
+   You can use different modular scales with *Simplicity*
+   Just configure the modular scale in _config.yml you want to use.
+
+   Font Sizes
+------------------------------------------------------------------- */
+/* Body
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+body {
+  font-family: "Source Sans Pro", "Neue Helvetica", Arial, serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #111;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures, contextual;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "alt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+/* Headlines
+------------------------------------------------------------------- */
+/* line 25, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", "Neue Helvetica", Arial, serif;
+  font-weight: normal;
+  padding: 0;
+}
+
+/* line 31, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+h1 {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+/* line 38, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 2em;
+}
+
+/* line 44, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+h3 {
+  font-style: italic;
+  font-size: 1em;
+  margin-top: 2em;
+}
+
+/* line 49, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+h4 {
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 2em;
+}
+
+/* line 54, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+h5 {
+  font-size: 1em;
+}
+
+/* line 57, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+h6 {
+  font-size: 1em;
+}
+
+/* Customize Typography
+------------------------------------------------------------------- */
+/* line 66, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  -ms-word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+}
+
+/* Images
+------------------------------------------------------------------- */
+/* line 81, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+img {
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+/* line 86, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+.alignleft,
+.left {
+  float: left;
+  margin: .35em 1em 0 0;
+}
+
+/* line 91, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+.alignright,
+.right {
+  float: right;
+  margin: .35em  0 0 1em;
+}
+
+/* line 96, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+.aligncenter,
+.center {
+  display: block;
+  margin: .25em auto .25em;
+}
+
+/* line 102, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+figure {
+  margin: 0 0 1em 0;
+}
+
+/* line 105, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+#masthead-with-background-color figure,
+#masthead-with-pattern figure {
+  margin: 0;
+}
+
+/* line 110, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+figcaption {
+  color: #E4E4E4;
+  font-size: 1em;
+  padding-top: .25em;
+  text-align: right;
+}
+/* line 116, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+figcaption a, figcaption a:link,
+figcaption .masthead-caption a, figcaption .masthead-caption a:link {
+  border-bottom: 1px dotted #E4E4E4;
+  color: #828282;
+}
+/* line 122, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+figcaption a:hover,
+figcaption .masthead-caption a:hover {
+  border-bottom-style: solid;
+}
+
+/* line 128, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+.masthead-caption {
+  padding-right: .5em;
+  text-align: right;
+  color: #E4E4E4;
+  font-size: 1em;
+  padding-top: .25em;
+}
+
+/* Tables
+------------------------------------------------------------------- */
+/* line 141, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+td {
+  vertical-align: top;
+}
+
+/* Code
+------------------------------------------------------------------- */
+/* line 150, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+pre {
+  font-size: .75em;
+  font-family: "Source Code Pro", "Courier New", Monaco, monospace;
+  font-weight: normal;
+  overflow: auto;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* line 158, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+pre code {
+  border: 0;
+}
+
+/* line 162, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+code {
+  font-family: "Source Code Pro", "Courier New", Monaco, monospace;
+  line-height: 1.5;
+}
+
+/* line 167, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+p code {
+  background: #f5b6c9;
+  box-decoration-break: clone;
+  padding: 0 .25em;
+}
+
+/* Lists
+------------------------------------------------------------------- */
+/* line 178, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+ul, ol {
+  margin-left: 1.25em;
+  padding: 0;
+}
+
+/* line 182, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+li {
+  margin-left: 0;
+}
+
+/* line 186, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+.no-bullet {
+  list-style: none;
+  margin-left: 0;
+}
+
+/* line 192, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+/* line 201, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+dt:first-child {
+  padding-top: 0px;
+}
+
+/* line 204, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+dt {
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+/* line 210, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+article dl dt {
+  line-height: 1.3;
+}
+
+/* line 211, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+article dl dd {
+  line-height: 1.6;
+  margin-bottom: rem-calc(12);
+  margin-left: rem-calc(24);
+}
+
+/* Quotes
+------------------------------------------------------------------- */
+/* line 218, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+blockquote {
+  margin: 2em 0em 2em 2em;
+  text-transform: uppercase;
+  color: #d4007a;
+  font-style: italic;
+}
+/* line 223, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+blockquote p {
+  font-style: italic;
+}
+/* line 226, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+blockquote a {
+  color: #d4007a !important;
+  border-color: #d4007a !important;
+}
+/* line 230, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+blockquote cite:before {
+  content: "\2014 \0020";
+  margin-left: .25em;
+}
+
+/* line 235, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+cite {
+  padding-top: 5px;
+}
+
+/* line 238, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+.frontpage blockquote {
+  margin: 0;
+}
+
+/* line 242, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+button, .button {
+  letter-spacing: 1px;
+}
+
+/* line 246, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+mark {
+  background-color: #f0ad88;
+  box-decoration-break: clone;
+  padding: 0 .5em;
+}
+
+/* line 251, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+kbd {
+  background: #E4E4E4;
+  border-radius: 3px;
+  padding: 0 0.25em;
+}
+
+/* Typography
+------------------------------------------------------------------- */
+/* line 261, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+hr {
+  border: 0;
+  border-top: dotted 1px #E4E4E4;
+}
+
+/* line 270, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_general_typography.scss */
+::selection {
+  background: #f5b6c9;
+}
+
+/* Typography for Articles
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_article.scss */
+.subheadline {
+  font-family: "Source Sans Pro", "Neue Helvetica", Arial, serif;
+  color: #828282;
+  margin: 0;
+}
+
+/* line 9, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_article.scss */
+.teaser {
+  font-weight: bold;
+}
+
+/* line 12, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_article.scss */
+article div.main-content > p:first-child {
+  font-weight: bold;
+}
+
+/* Media Queries Layout
+------------------------------------------------------------------- */
+/* Small
+------------------------------------------------------------------- */
+/* Medium
+------------------------------------------------------------------- */
+@media (min-width: 641px) and (max-width: 1024px) {
+  /* line 18, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_media_queries.scss */
+  body {
+    font-size: 22px;
+  }
+}
+/* Large
+------------------------------------------------------------------- */
+@media (min-width: 1025px) {
+  /* line 30, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_media_queries.scss */
+  body {
+    font-size: 26px;
+  }
+}
+/* Font Sizes
+------------------------------------------------------------------- */
+/* line 3, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.round {
+  border-radius: 50%;
+}
+
+/* Font Sizes
+------------------------------------------------------------------- */
+/* line 8, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.sans {
+  font-family: "Source Sans Pro", "Neue Helvetica", Arial, serif;
+}
+
+/* line 9, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.serif {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* line 11, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.h1 {
+  font-size: 1em;
+}
+
+/* line 12, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.h2 {
+  font-size: 1em;
+}
+
+/* line 13, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.h3 {
+  font-size: 1em;
+}
+
+/* line 14, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.h4 {
+  font-size: 1em;
+}
+
+/* line 15, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.h5 {
+  font-size: 1em;
+}
+
+/* line 16, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.h6 {
+  font-size: 1em;
+}
+
+/* line 17, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.font-size-p {
+  font-size: 1em;
+}
+
+/* line 18, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.small {
+  font-size: 1em;
+  line-height: 1.3;
+}
+
+/* Text Align
+------------------------------------------------------------------- */
+/* line 27, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 28, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 29, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 30, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.block {
+  display: block;
+}
+
+/* line 31, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.inline {
+  display: inline;
+}
+
+/* Shadows
+------------------------------------------------------------------- */
+/* line 38, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.shadow-no {
+  text-shadow: rgba(0, 0, 0, 0) 0 0 0;
+}
+
+/* line 39, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.shadow-black {
+  text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;
+}
+
+/* line 40, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_typography_css_elements.scss */
+.shadow-white {
+  text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 2px;
+}
+
+/* line 2, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight {
+  border-top: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+  background-color: #fefefe;
+  color: #111;
+  /* Comment */
+  /* Error */
+  /* Generic */
+  /* Keyword */
+  /* Literal */
+  /* Name */
+  /* Operator */
+  /* Other */
+  /* Punctuation */
+  /* Comment.Multiline */
+  /* Comment.Preproc */
+  /* Comment.Single */
+  /* Comment.Special */
+  /* Generic.Deleted */
+  /* Generic.Emph */
+  /* Generic.Error */
+  /* Generic.Heading */
+  /* Generic.Inserted */
+  /* Generic.Output */
+  /* Generic.Prompt */
+  /* Generic.Strong */
+  /* Generic.Subheading */
+  /* Generic.Traceback */
+  /* Keyword.Constant */
+  /* Keyword.Declaration */
+  /* Keyword.Namespace */
+  /* Keyword.Pseudo */
+  /* Keyword.Reserved */
+  /* Keyword.Type */
+  /* Literal.Date */
+  /* Literal.Number */
+  /* Literal.String */
+  /* Name.Attribute */
+  /* Name.Builtin */
+  /* Name.Class */
+  /* Name.Constant */
+  /* Name.Decorator */
+  /* Name.Entity */
+  /* Name.Exception */
+  /* Name.Function */
+  /* Name.Label */
+  /* Name.Namespace */
+  /* Name.Other */
+  /* Name.Property */
+  /* Name.Tag */
+  /* Name.Variable */
+  /* Operator.Word */
+  /* Text.Whitespace */
+  /* Literal.Number.Float */
+  /* Literal.Number.Hex */
+  /* Literal.Number.Integer */
+  /* Literal.Number.Oct */
+  /* Literal.String.Backtick */
+  /* Literal.String.Char */
+  /* Literal.String.Doc */
+  /* Literal.String.Double */
+  /* Literal.String.Escape */
+  /* Literal.String.Heredoc */
+  /* Literal.String.Interpol */
+  /* Literal.String.Other */
+  /* Literal.String.Regex */
+  /* Literal.String.Single */
+  /* Literal.String.Symbol */
+  /* Name.Builtin.Pseudo */
+  /* Name.Variable.Class */
+  /* Name.Variable.Global */
+  /* Name.Variable.Instance */
+  /* Literal.Number.Integer.Long */
+}
+/* line 8, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight span {
+  font-weight: normal;
+  font-family: "Source Code Pro", "Courier New", Monaco, monospace;
+}
+/* line 13, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .c {
+  color: #E4E4E4;
+}
+/* line 14, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .err {
+  color: #111;
+}
+/* line 15, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .g {
+  color: #111;
+}
+/* line 16, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .k {
+  color: #6a9519;
+}
+/* line 17, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .l {
+  color: #111;
+}
+/* line 18, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .n {
+  color: #111;
+}
+/* line 19, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .o {
+  color: #6a9519;
+}
+/* line 20, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .x {
+  color: #e05a10;
+}
+/* line 21, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .p {
+  color: #111;
+}
+/* line 22, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .cm {
+  color: #E4E4E4;
+}
+/* line 23, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .cp {
+  color: #6a9519;
+}
+/* line 24, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .c1 {
+  color: #E4E4E4;
+}
+/* line 25, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .cs {
+  color: #6a9519;
+}
+/* line 26, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .gd {
+  color: #d4007a;
+}
+/* line 27, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .ge {
+  color: #111;
+  font-style: italic;
+}
+/* line 28, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .gr {
+  color: #aa0132;
+}
+/* line 29, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .gh {
+  color: #e05a10;
+}
+/* line 30, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .gi {
+  color: #6a9519;
+}
+/* line 31, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .go {
+  color: #111;
+}
+/* line 32, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .gp {
+  color: #111;
+}
+/* line 33, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .gs {
+  color: #111;
+  font-weight: bold;
+}
+/* line 34, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .gu {
+  color: #e05a10;
+}
+/* line 35, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .gt {
+  color: #111;
+}
+/* line 36, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .kc {
+  color: #e05a10;
+}
+/* line 37, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .kd {
+  color: #900055;
+}
+/* line 38, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .kn {
+  color: #6a9519;
+}
+/* line 39, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .kp {
+  color: #6a9519;
+}
+/* line 40, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .kr {
+  color: #900055;
+}
+/* line 41, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .kt {
+  color: #aa0132;
+}
+/* line 42, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .ld {
+  color: #111;
+}
+/* line 43, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .m {
+  color: #d4007a;
+}
+/* line 44, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .s {
+  color: #d4007a;
+}
+/* line 45, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .na {
+  color: #111;
+}
+/* line 46, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .nb {
+  color: #e05a10;
+}
+/* line 47, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .nc {
+  color: #900055;
+}
+/* line 48, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .no {
+  color: #e05a10;
+}
+/* line 49, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .nd {
+  color: #900055;
+}
+/* line 50, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .ni {
+  color: #e05a10;
+}
+/* line 51, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .ne {
+  color: #e05a10;
+}
+/* line 52, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .nf {
+  color: #900055;
+}
+/* line 53, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .nl {
+  color: #111;
+}
+/* line 54, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .nn {
+  color: #111;
+}
+/* line 55, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .nx {
+  color: #111;
+}
+/* line 56, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .py {
+  color: #111;
+}
+/* line 57, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .nt {
+  color: #900055;
+}
+/* line 58, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .nv {
+  color: #900055;
+}
+/* line 59, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .ow {
+  color: #6a9519;
+}
+/* line 60, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .w {
+  color: #111;
+}
+/* line 61, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .mf {
+  color: #d4007a;
+}
+/* line 62, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .mh {
+  color: #d4007a;
+}
+/* line 63, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .mi {
+  color: #d4007a;
+}
+/* line 64, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .mo {
+  color: #d4007a;
+}
+/* line 65, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .sb {
+  color: #E4E4E4;
+}
+/* line 66, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .sc {
+  color: #d4007a;
+}
+/* line 67, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .sd {
+  color: #111;
+}
+/* line 68, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .s2 {
+  color: #d4007a;
+}
+/* line 69, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .se {
+  color: #e05a10;
+}
+/* line 70, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .sh {
+  color: #111;
+}
+/* line 71, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .si {
+  color: #d4007a;
+}
+/* line 72, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .sx {
+  color: #d4007a;
+}
+/* line 73, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .sr {
+  color: #aa0132;
+}
+/* line 74, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .s1 {
+  color: #d4007a;
+}
+/* line 75, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .ss {
+  color: #d4007a;
+}
+/* line 76, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .bp {
+  color: #900055;
+}
+/* line 77, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .vc {
+  color: #900055;
+}
+/* line 78, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .vg {
+  color: #900055;
+}
+/* line 79, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .vi {
+  color: #900055;
+}
+/* line 80, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_syntax_highlighting.scss */
+.highlight .il {
+  color: #d4007a;
+}
+
+/* Links
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+a,
+a:link {
+  -webkit-transition: all 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: all 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  color: #900055;
+  text-decoration: none;
+  border-bottom: 2px solid #900055;
+}
+
+/* line 13, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+a:visited {
+  border-bottom: #E4E4E4;
+}
+
+/* line 17, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+a:hover {
+  color: #5d0037;
+  border-bottom: 4px solid #900055;
+}
+
+/* line 22, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+a:focus {
+  color: #f60091;
+}
+
+/* line 26, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+a:active {
+  color: #2a0019;
+}
+
+/* line 30, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+h1 a, h1 a:visited, h1 a:link,
+h2 a, h2 a:visited, h2 a:link,
+h3 a, h3 a:visited, h3 a:link,
+h4 a, h4 a:visited, h4 a:link,
+h5 a, h5 a:visited, h5 a:link,
+h6 a, h6 a:visited, h6 a:link {
+  border: 0;
+}
+
+/* line 41, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+a a:visited,
+a:link img,
+a:hover img,
+a:focus img,
+a:active img,
+a img {
+  border: 0;
+}
+
+/* line 48, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+a img {
+  border: none;
+}
+
+/* line 50, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+#content a img {
+  display: block;
+  border: 0;
+  -webkit-transition: all 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: all 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* line 62, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/04_typography/_links.scss */
+#content a img:hover {
+  box-shadow: -2px 0 2px 0 rgba(0, 0, 0, 0.16), 2px 0 2px 0 rgba(0, 0, 0, 0.16), 0 2px 2px 0 rgba(0, 0, 0, 0.23);
+  -webkit-transform: translate3d(0, -3px, 0);
+  transform: translate3d(0, -3px, 0);
+}
+
+/* LAYOUT
+------------------------------------------------------------------- */
+/* line 5, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_00_layout.scss */
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+/* line 10, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_00_layout.scss */
+body {
+  background-color: #fefefe;
+}
+
+/* line 15, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_00_layout.scss */
+html,
+body {
+  box-sizing: border-box;
+}
+
+/* line 19, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_00_layout.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Grid
+
+This is a grid based on foundation. It helps you to spice up your
+website.
+
+------------------------------------------------------------------- */
+/* line 9, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.row {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 13, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.row::before, .row::after {
+  content: ' ';
+  display: table;
+}
+
+/* line 16, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.row::after {
+  clear: both;
+}
+
+/* line 18, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.row.collapse > .column, .row.collapse > .columns {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 21, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.row .row {
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+}
+
+/* line 24, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.row .row.collapse {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 27, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.row.small-collapse > .column, .row.small-collapse > .columns {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 30, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.row.small-uncollapse > .column, .row.small-uncollapse > .columns {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 34, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .row.medium-collapse > .column, .row.medium-collapse > .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 37, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .row.medium-uncollapse > .column, .row.medium-uncollapse > .columns {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (min-width: 64em) {
+  /* line 41, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .row.large-collapse > .column, .row.large-collapse > .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 44, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .row.large-uncollapse > .column, .row.large-uncollapse > .columns {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+/* line 47, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.row.expanded {
+  max-width: none;
+}
+
+/* line 50, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.column, .columns {
+  width: 100%;
+  float: left;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+/* line 55, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+  float: right;
+}
+
+/* line 57, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.column.end:last-child:last-child, .end.columns:last-child:last-child {
+  float: left;
+}
+
+/* line 60, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.column.row.row, .row.row.columns {
+  float: none;
+}
+
+/* line 63, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-1 {
+  width: 8.33333%;
+}
+
+/* line 66, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-1 {
+  position: relative;
+  left: 8.33333%;
+}
+
+/* line 70, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-1 {
+  position: relative;
+  left: -8.33333%;
+}
+
+/* line 74, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-0 {
+  margin-left: 0%;
+}
+
+/* line 77, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-2 {
+  width: 16.66667%;
+}
+
+/* line 80, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-2 {
+  position: relative;
+  left: 16.66667%;
+}
+
+/* line 84, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-2 {
+  position: relative;
+  left: -16.66667%;
+}
+
+/* line 88, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-1 {
+  margin-left: 8.33333%;
+}
+
+/* line 91, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-3 {
+  width: 25%;
+}
+
+/* line 94, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-3 {
+  position: relative;
+  left: 25%;
+}
+
+/* line 98, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-3 {
+  position: relative;
+  left: -25%;
+}
+
+/* line 102, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-2 {
+  margin-left: 16.66667%;
+}
+
+/* line 105, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-4 {
+  width: 33.33333%;
+}
+
+/* line 108, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-4 {
+  position: relative;
+  left: 33.33333%;
+}
+
+/* line 112, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-4 {
+  position: relative;
+  left: -33.33333%;
+}
+
+/* line 116, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 119, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-5 {
+  width: 41.66667%;
+}
+
+/* line 122, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-5 {
+  position: relative;
+  left: 41.66667%;
+}
+
+/* line 126, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-5 {
+  position: relative;
+  left: -41.66667%;
+}
+
+/* line 130, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-4 {
+  margin-left: 33.33333%;
+}
+
+/* line 133, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-6 {
+  width: 50%;
+}
+
+/* line 136, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-6 {
+  position: relative;
+  left: 50%;
+}
+
+/* line 140, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-6 {
+  position: relative;
+  left: -50%;
+}
+
+/* line 144, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-5 {
+  margin-left: 41.66667%;
+}
+
+/* line 147, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-7 {
+  width: 58.33333%;
+}
+
+/* line 150, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-7 {
+  position: relative;
+  left: 58.33333%;
+}
+
+/* line 154, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-7 {
+  position: relative;
+  left: -58.33333%;
+}
+
+/* line 158, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 161, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-8 {
+  width: 66.66667%;
+}
+
+/* line 164, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-8 {
+  position: relative;
+  left: 66.66667%;
+}
+
+/* line 168, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-8 {
+  position: relative;
+  left: -66.66667%;
+}
+
+/* line 172, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-7 {
+  margin-left: 58.33333%;
+}
+
+/* line 175, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-9 {
+  width: 75%;
+}
+
+/* line 178, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-9 {
+  position: relative;
+  left: 75%;
+}
+
+/* line 182, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-9 {
+  position: relative;
+  left: -75%;
+}
+
+/* line 186, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-8 {
+  margin-left: 66.66667%;
+}
+
+/* line 189, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-10 {
+  width: 83.33333%;
+}
+
+/* line 192, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-10 {
+  position: relative;
+  left: 83.33333%;
+}
+
+/* line 196, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-10 {
+  position: relative;
+  left: -83.33333%;
+}
+
+/* line 200, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 203, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-11 {
+  width: 91.66667%;
+}
+
+/* line 206, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-push-11 {
+  position: relative;
+  left: 91.66667%;
+}
+
+/* line 210, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-pull-11 {
+  position: relative;
+  left: -91.66667%;
+}
+
+/* line 214, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-10 {
+  margin-left: 83.33333%;
+}
+
+/* line 217, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-12 {
+  width: 100%;
+}
+
+/* line 220, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-offset-11 {
+  margin-left: 91.66667%;
+}
+
+/* line 223, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-1 > .column, .small-up-1 > .columns {
+  width: 100%;
+  float: left;
+}
+
+/* line 226, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-1 > .column:nth-of-type(1n), .small-up-1 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 228, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-1 > .column:nth-of-type(1n+1), .small-up-1 > .columns:nth-of-type(1n+1) {
+  clear: both;
+}
+
+/* line 230, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-1 > .column:last-child, .small-up-1 > .columns:last-child {
+  float: left;
+}
+
+/* line 233, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-2 > .column, .small-up-2 > .columns {
+  width: 50%;
+  float: left;
+}
+
+/* line 236, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-2 > .column:nth-of-type(1n), .small-up-2 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 238, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-2 > .column:nth-of-type(2n+1), .small-up-2 > .columns:nth-of-type(2n+1) {
+  clear: both;
+}
+
+/* line 240, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-2 > .column:last-child, .small-up-2 > .columns:last-child {
+  float: left;
+}
+
+/* line 243, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-3 > .column, .small-up-3 > .columns {
+  width: 33.33333%;
+  float: left;
+}
+
+/* line 246, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-3 > .column:nth-of-type(1n), .small-up-3 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 248, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-3 > .column:nth-of-type(3n+1), .small-up-3 > .columns:nth-of-type(3n+1) {
+  clear: both;
+}
+
+/* line 250, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-3 > .column:last-child, .small-up-3 > .columns:last-child {
+  float: left;
+}
+
+/* line 253, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-4 > .column, .small-up-4 > .columns {
+  width: 25%;
+  float: left;
+}
+
+/* line 256, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-4 > .column:nth-of-type(1n), .small-up-4 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 258, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-4 > .column:nth-of-type(4n+1), .small-up-4 > .columns:nth-of-type(4n+1) {
+  clear: both;
+}
+
+/* line 260, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-4 > .column:last-child, .small-up-4 > .columns:last-child {
+  float: left;
+}
+
+/* line 263, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-5 > .column, .small-up-5 > .columns {
+  width: 20%;
+  float: left;
+}
+
+/* line 266, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-5 > .column:nth-of-type(1n), .small-up-5 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 268, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-5 > .column:nth-of-type(5n+1), .small-up-5 > .columns:nth-of-type(5n+1) {
+  clear: both;
+}
+
+/* line 270, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-5 > .column:last-child, .small-up-5 > .columns:last-child {
+  float: left;
+}
+
+/* line 273, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-6 > .column, .small-up-6 > .columns {
+  width: 16.66667%;
+  float: left;
+}
+
+/* line 276, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-6 > .column:nth-of-type(1n), .small-up-6 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 278, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-6 > .column:nth-of-type(6n+1), .small-up-6 > .columns:nth-of-type(6n+1) {
+  clear: both;
+}
+
+/* line 280, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-6 > .column:last-child, .small-up-6 > .columns:last-child {
+  float: left;
+}
+
+/* line 283, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-7 > .column, .small-up-7 > .columns {
+  width: 14.28571%;
+  float: left;
+}
+
+/* line 286, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-7 > .column:nth-of-type(1n), .small-up-7 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 288, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-7 > .column:nth-of-type(7n+1), .small-up-7 > .columns:nth-of-type(7n+1) {
+  clear: both;
+}
+
+/* line 290, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-7 > .column:last-child, .small-up-7 > .columns:last-child {
+  float: left;
+}
+
+/* line 293, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-8 > .column, .small-up-8 > .columns {
+  width: 12.5%;
+  float: left;
+}
+
+/* line 296, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-8 > .column:nth-of-type(1n), .small-up-8 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 298, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-8 > .column:nth-of-type(8n+1), .small-up-8 > .columns:nth-of-type(8n+1) {
+  clear: both;
+}
+
+/* line 300, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-up-8 > .column:last-child, .small-up-8 > .columns:last-child {
+  float: left;
+}
+
+/* line 303, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.column.small-centered, .small-centered.columns {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 308, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+.small-uncenter,
+.small-push-0,
+.small-pull-0 {
+  position: static;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 316, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-1 {
+    width: 8.33333%;
+  }
+
+  /* line 318, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-1 {
+    position: relative;
+    left: 8.33333%;
+  }
+
+  /* line 321, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-1 {
+    position: relative;
+    left: -8.33333%;
+  }
+
+  /* line 324, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 326, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-2 {
+    width: 16.66667%;
+  }
+
+  /* line 328, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-2 {
+    position: relative;
+    left: 16.66667%;
+  }
+
+  /* line 331, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-2 {
+    position: relative;
+    left: -16.66667%;
+  }
+
+  /* line 334, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 336, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-3 {
+    width: 25%;
+  }
+
+  /* line 338, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-3 {
+    position: relative;
+    left: 25%;
+  }
+
+  /* line 341, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-3 {
+    position: relative;
+    left: -25%;
+  }
+
+  /* line 344, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 346, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-4 {
+    width: 33.33333%;
+  }
+
+  /* line 348, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-4 {
+    position: relative;
+    left: 33.33333%;
+  }
+
+  /* line 351, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-4 {
+    position: relative;
+    left: -33.33333%;
+  }
+
+  /* line 354, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 356, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-5 {
+    width: 41.66667%;
+  }
+
+  /* line 358, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-5 {
+    position: relative;
+    left: 41.66667%;
+  }
+
+  /* line 361, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-5 {
+    position: relative;
+    left: -41.66667%;
+  }
+
+  /* line 364, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 366, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-6 {
+    width: 50%;
+  }
+
+  /* line 368, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-6 {
+    position: relative;
+    left: 50%;
+  }
+
+  /* line 371, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-6 {
+    position: relative;
+    left: -50%;
+  }
+
+  /* line 374, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 376, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-7 {
+    width: 58.33333%;
+  }
+
+  /* line 378, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-7 {
+    position: relative;
+    left: 58.33333%;
+  }
+
+  /* line 381, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-7 {
+    position: relative;
+    left: -58.33333%;
+  }
+
+  /* line 384, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 386, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-8 {
+    width: 66.66667%;
+  }
+
+  /* line 388, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-8 {
+    position: relative;
+    left: 66.66667%;
+  }
+
+  /* line 391, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-8 {
+    position: relative;
+    left: -66.66667%;
+  }
+
+  /* line 394, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 396, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-9 {
+    width: 75%;
+  }
+
+  /* line 398, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-9 {
+    position: relative;
+    left: 75%;
+  }
+
+  /* line 401, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-9 {
+    position: relative;
+    left: -75%;
+  }
+
+  /* line 404, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 406, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-10 {
+    width: 83.33333%;
+  }
+
+  /* line 408, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-10 {
+    position: relative;
+    left: 83.33333%;
+  }
+
+  /* line 411, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-10 {
+    position: relative;
+    left: -83.33333%;
+  }
+
+  /* line 414, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 416, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-11 {
+    width: 91.66667%;
+  }
+
+  /* line 418, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-push-11 {
+    position: relative;
+    left: 91.66667%;
+  }
+
+  /* line 421, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-pull-11 {
+    position: relative;
+    left: -91.66667%;
+  }
+
+  /* line 424, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 426, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-12 {
+    width: 100%;
+  }
+
+  /* line 428, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 430, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-1 > .column, .medium-up-1 > .columns {
+    width: 100%;
+    float: left;
+  }
+
+  /* line 433, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-1 > .column:nth-of-type(1n), .medium-up-1 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 435, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-1 > .column:nth-of-type(1n+1), .medium-up-1 > .columns:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 437, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-1 > .column:last-child, .medium-up-1 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 439, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-2 > .column, .medium-up-2 > .columns {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 442, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-2 > .column:nth-of-type(1n), .medium-up-2 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 444, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-2 > .column:nth-of-type(2n+1), .medium-up-2 > .columns:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 446, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-2 > .column:last-child, .medium-up-2 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 448, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-3 > .column, .medium-up-3 > .columns {
+    width: 33.33333%;
+    float: left;
+  }
+
+  /* line 451, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-3 > .column:nth-of-type(1n), .medium-up-3 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 453, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-3 > .column:nth-of-type(3n+1), .medium-up-3 > .columns:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 455, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-3 > .column:last-child, .medium-up-3 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 457, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-4 > .column, .medium-up-4 > .columns {
+    width: 25%;
+    float: left;
+  }
+
+  /* line 460, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-4 > .column:nth-of-type(1n), .medium-up-4 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 462, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-4 > .column:nth-of-type(4n+1), .medium-up-4 > .columns:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 464, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-4 > .column:last-child, .medium-up-4 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 466, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-5 > .column, .medium-up-5 > .columns {
+    width: 20%;
+    float: left;
+  }
+
+  /* line 469, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-5 > .column:nth-of-type(1n), .medium-up-5 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 471, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-5 > .column:nth-of-type(5n+1), .medium-up-5 > .columns:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 473, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-5 > .column:last-child, .medium-up-5 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 475, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-6 > .column, .medium-up-6 > .columns {
+    width: 16.66667%;
+    float: left;
+  }
+
+  /* line 478, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-6 > .column:nth-of-type(1n), .medium-up-6 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 480, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-6 > .column:nth-of-type(6n+1), .medium-up-6 > .columns:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 482, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-6 > .column:last-child, .medium-up-6 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 484, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-7 > .column, .medium-up-7 > .columns {
+    width: 14.28571%;
+    float: left;
+  }
+
+  /* line 487, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-7 > .column:nth-of-type(1n), .medium-up-7 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 489, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-7 > .column:nth-of-type(7n+1), .medium-up-7 > .columns:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 491, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-7 > .column:last-child, .medium-up-7 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 493, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-8 > .column, .medium-up-8 > .columns {
+    width: 12.5%;
+    float: left;
+  }
+
+  /* line 496, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-8 > .column:nth-of-type(1n), .medium-up-8 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 498, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-8 > .column:nth-of-type(8n+1), .medium-up-8 > .columns:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 500, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-up-8 > .column:last-child, .medium-up-8 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 502, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .column.medium-centered, .medium-centered.columns {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 506, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .medium-uncenter,
+  .medium-push-0,
+  .medium-pull-0 {
+    position: static;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 64em) {
+  /* line 514, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-1 {
+    width: 8.33333%;
+  }
+
+  /* line 516, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-1 {
+    position: relative;
+    left: 8.33333%;
+  }
+
+  /* line 519, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-1 {
+    position: relative;
+    left: -8.33333%;
+  }
+
+  /* line 522, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 524, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-2 {
+    width: 16.66667%;
+  }
+
+  /* line 526, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-2 {
+    position: relative;
+    left: 16.66667%;
+  }
+
+  /* line 529, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-2 {
+    position: relative;
+    left: -16.66667%;
+  }
+
+  /* line 532, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 534, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-3 {
+    width: 25%;
+  }
+
+  /* line 536, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-3 {
+    position: relative;
+    left: 25%;
+  }
+
+  /* line 539, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-3 {
+    position: relative;
+    left: -25%;
+  }
+
+  /* line 542, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 544, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-4 {
+    width: 33.33333%;
+  }
+
+  /* line 546, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-4 {
+    position: relative;
+    left: 33.33333%;
+  }
+
+  /* line 549, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-4 {
+    position: relative;
+    left: -33.33333%;
+  }
+
+  /* line 552, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 554, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-5 {
+    width: 41.66667%;
+  }
+
+  /* line 556, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-5 {
+    position: relative;
+    left: 41.66667%;
+  }
+
+  /* line 559, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-5 {
+    position: relative;
+    left: -41.66667%;
+  }
+
+  /* line 562, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 564, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-6 {
+    width: 50%;
+  }
+
+  /* line 566, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-6 {
+    position: relative;
+    left: 50%;
+  }
+
+  /* line 569, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-6 {
+    position: relative;
+    left: -50%;
+  }
+
+  /* line 572, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 574, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-7 {
+    width: 58.33333%;
+  }
+
+  /* line 576, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-7 {
+    position: relative;
+    left: 58.33333%;
+  }
+
+  /* line 579, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-7 {
+    position: relative;
+    left: -58.33333%;
+  }
+
+  /* line 582, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 584, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-8 {
+    width: 66.66667%;
+  }
+
+  /* line 586, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-8 {
+    position: relative;
+    left: 66.66667%;
+  }
+
+  /* line 589, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-8 {
+    position: relative;
+    left: -66.66667%;
+  }
+
+  /* line 592, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 594, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-9 {
+    width: 75%;
+  }
+
+  /* line 596, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-9 {
+    position: relative;
+    left: 75%;
+  }
+
+  /* line 599, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-9 {
+    position: relative;
+    left: -75%;
+  }
+
+  /* line 602, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 604, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-10 {
+    width: 83.33333%;
+  }
+
+  /* line 606, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-10 {
+    position: relative;
+    left: 83.33333%;
+  }
+
+  /* line 609, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-10 {
+    position: relative;
+    left: -83.33333%;
+  }
+
+  /* line 612, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 614, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-11 {
+    width: 91.66667%;
+  }
+
+  /* line 616, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-push-11 {
+    position: relative;
+    left: 91.66667%;
+  }
+
+  /* line 619, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-pull-11 {
+    position: relative;
+    left: -91.66667%;
+  }
+
+  /* line 622, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 624, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-12 {
+    width: 100%;
+  }
+
+  /* line 626, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 628, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-1 > .column, .large-up-1 > .columns {
+    width: 100%;
+    float: left;
+  }
+
+  /* line 631, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-1 > .column:nth-of-type(1n), .large-up-1 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 633, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-1 > .column:nth-of-type(1n+1), .large-up-1 > .columns:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 635, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-1 > .column:last-child, .large-up-1 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 637, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-2 > .column, .large-up-2 > .columns {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 640, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-2 > .column:nth-of-type(1n), .large-up-2 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 642, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-2 > .column:nth-of-type(2n+1), .large-up-2 > .columns:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 644, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-2 > .column:last-child, .large-up-2 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 646, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-3 > .column, .large-up-3 > .columns {
+    width: 33.33333%;
+    float: left;
+  }
+
+  /* line 649, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-3 > .column:nth-of-type(1n), .large-up-3 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 651, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-3 > .column:nth-of-type(3n+1), .large-up-3 > .columns:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 653, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-3 > .column:last-child, .large-up-3 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 655, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-4 > .column, .large-up-4 > .columns {
+    width: 25%;
+    float: left;
+  }
+
+  /* line 658, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-4 > .column:nth-of-type(1n), .large-up-4 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 660, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-4 > .column:nth-of-type(4n+1), .large-up-4 > .columns:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 662, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-4 > .column:last-child, .large-up-4 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 664, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-5 > .column, .large-up-5 > .columns {
+    width: 20%;
+    float: left;
+  }
+
+  /* line 667, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-5 > .column:nth-of-type(1n), .large-up-5 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 669, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-5 > .column:nth-of-type(5n+1), .large-up-5 > .columns:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 671, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-5 > .column:last-child, .large-up-5 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 673, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-6 > .column, .large-up-6 > .columns {
+    width: 16.66667%;
+    float: left;
+  }
+
+  /* line 676, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-6 > .column:nth-of-type(1n), .large-up-6 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 678, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-6 > .column:nth-of-type(6n+1), .large-up-6 > .columns:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 680, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-6 > .column:last-child, .large-up-6 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 682, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-7 > .column, .large-up-7 > .columns {
+    width: 14.28571%;
+    float: left;
+  }
+
+  /* line 685, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-7 > .column:nth-of-type(1n), .large-up-7 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 687, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-7 > .column:nth-of-type(7n+1), .large-up-7 > .columns:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 689, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-7 > .column:last-child, .large-up-7 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 691, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-8 > .column, .large-up-8 > .columns {
+    width: 12.5%;
+    float: left;
+  }
+
+  /* line 694, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-8 > .column:nth-of-type(1n), .large-up-8 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 696, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-8 > .column:nth-of-type(8n+1), .large-up-8 > .columns:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 698, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-up-8 > .column:last-child, .large-up-8 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 700, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .column.large-centered, .large-centered.columns {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 704, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_grid.scss */
+  .large-uncenter,
+  .large-push-0,
+  .large-pull-0 {
+    position: static;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* Navigation
+
+There is a class called .tnav-hide to hide elements on smaller
+devices. You find it in _sass/_layout/_layout_media_queries.scss
+
+------------------------------------------------------------------- */
+/* line 8, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+#tnav {
+  font-size: 18px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  white-space: nowrap;
+  border-bottom: 1px solid #E4E4E4;
+  background: #fefefe;
+  opacity: .9;
+}
+
+/* line 23, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-list,
+.tnav-item {
+  position: relative;
+  height: 3em;
+}
+
+/* line 28, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-item {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+/* line 38, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+#tnav li {
+  line-height: 2;
+}
+
+/* line 41, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+#tnav a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: .5em 2em .5em 2em;
+  border: 0;
+}
+
+/* line 48, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+#tnav a:hover {
+  border: 0;
+  color: #d4007a;
+  background: #900055;
+}
+
+/* line 53, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-list {
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/* Initial menus should be inline-block so that they are horizontal */
+/* line 59, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-horizontal .tnav-item,
+.tnav-horizontal .tnav-heading,
+.tnav-horizontal .tnav-separator {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+
+/* Submenus should still be display: block; */
+/* line 68, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-item .tnav-item {
+  display: block;
+}
+
+/* line 71, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-children {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+  background: #E4E4E4;
+}
+
+/* line 81, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-horizontal .tnav-children {
+  left: 0;
+  top: auto;
+  width: inherit;
+}
+
+/* line 86, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-allow-hover:hover > .tnav-children,
+.tnav-active > .tnav-children {
+  display: block;
+  position: absolute;
+}
+
+/* Vertical Menus - show the dropdown arrow */
+/* line 93, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-has-children > .tnav-link:after {
+  padding-left: 0.5em;
+  content: "\25B8";
+  font-size: small;
+}
+
+/* Horizontal Menus - show the dropdown arrow */
+/* line 100, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.tnav-horizontal .tnav-has-children > a:after {
+  content: " \25BE";
+}
+
+/* TNAV Images – Reduce Size of Images */
+/* line 105, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+#tnav-logo > a {
+  padding: 0 1em 0 1em;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+/* Use this class to hide the dropdown arrow for menus (with an icon – see share icon) */
+/* line 112, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+.no-dropdown-arrow > a:after {
+  content: "" !important;
+}
+
+/* line 115, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+#tnav-search,
+#tnav-share,
+#tnav-menu {
+  float: right;
+}
+
+/* line 120, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+#tnav-menu > a {
+  color: #E4E4E4;
+}
+
+/* line 123, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+#tnav-share a,
+#tnav-search a {
+  display: block;
+  line-height: 1.5;
+  padding: .65em 1em .5em 1em;
+}
+
+/* line 129, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_navigation.scss */
+#tnav-share svg,
+#tnav-search svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: #E4E4E4;
+}
+
+/* #masthead
+
+You find media_queries settings for #masthead
+in _layout_media_queries.scss
+
+------------------------------------------------------------------- */
+/* #logo
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_logo.scss */
+#logo a img {
+  height: 30px;
+  margin: 10px 1em 0 0;
+  padding: 0;
+  float: left;
+}
+
+/* line 10, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_logo.scss */
+#logo a:hover {
+  text-decoration: none;
+  color: #900055;
+}
+
+@media (max-width: 639px) {
+  /* line 16, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_logo.scss */
+  #logo a img {
+    height: 20px;
+    margin-top: 5px;
+  }
+}
+@media (min-width: 640px) and (max-width: 1024px) {
+  /* line 23, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_logo.scss */
+  #logo a img {
+    height: 26px;
+    margin-top: 8px;
+  }
+}
+/* line 29, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_logo.scss */
+.slogan {
+  padding-top: .21em !important;
+  display: block !important;
+}
+
+/* Search
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_search.scss */
+#search-container input {
+  border: 0;
+  border-bottom: 1px solid #900055;
+  outline: none;
+  color: #900055;
+  background: #f9f2f7;
+  width: 100%;
+}
+
+/* line 13, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_search.scss */
+#search-container .search-input {
+  width: 55%;
+  margin-right: 1em;
+  padding: 0.25em .25em;
+}
+
+/* line 23, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_search.scss */
+#search-container input:hover,
+#search-container input:active,
+#search-container input:visited,
+#search-container input:focus,
+#search-container input:hover:focus,
+#search-container input:hover:active {
+  border-bottom: 3px solid #900055;
+  background: transparent;
+}
+
+/* line 34, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_search.scss */
+div.class.alert-box.text div#search-container input#search-input {
+  background: transparent !important;
+}
+
+/* Content
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_content.scss */
+#content {
+  margin-top: 5em;
+}
+
+/* line 8, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_content.scss */
+.main-content {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+/* Meta
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_meta.scss */
+#page-meta, #page-meta a {
+  color: #828282;
+}
+
+/* line 8, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_meta.scss */
+#page-meta .button {
+  background: #828282;
+  border: 0;
+}
+
+/* line 12, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_meta.scss */
+#page-meta .button {
+  color: #fff;
+}
+
+/* line 15, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_meta.scss */
+#page-meta .button:hover {
+  background: #900055;
+}
+
+/* line 18, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_meta.scss */
+.meta-info p {
+  font-size: rem-calc(13);
+  color: #efefef;
+}
+
+/* line 22, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_meta.scss */
+.meta-info a {
+  text-decoration: underline;
+  color: #efefef;
+}
+
+/* line 26, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_meta.scss */
+.meta-info a:hover {
+  text-decoration: none;
+  color: #d4007a;
+}
+
+/* Pagination
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination {
+  margin-top: 1em;
+}
+
+/* line 8, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a {
+  display: block;
+  background: #E4E4E4;
+  color: #111;
+  font-size: 1em;
+  font-style: italic;
+  text-decoration: none;
+  border: 0;
+  border-radius: 3px;
+}
+
+/* line 18, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a:hover {
+  background: #E4E4E4;
+  color: #900055;
+}
+
+/* line 22, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a.next {
+  float: right;
+}
+
+/* line 26, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a.prev {
+  float: left;
+}
+
+/* line 29, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a span {
+  display: none;
+  font-weight: normal;
+}
+
+/* line 35, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a span.skip {
+  display: block;
+  font-weight: normal;
+  margin: 0 .3em;
+}
+
+/* line 40, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a:hover span.skip {
+  display: none;
+  font-weight: normal;
+  padding: 0 .3em;
+}
+
+/* line 46, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a:hover span {
+  display: block;
+  transition: all .3s;
+  padding: 0 .3em;
+}
+
+/* line 51, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a.next span {
+  float: left;
+}
+
+/* line 55, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_pagination.scss */
+#pagination a.prev span {
+  float: right;
+}
+
+/* Footer
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_footer.scss */
+#footer {
+  margin-top: 7em;
+  padding-bottom: 2em;
+  letter-spacing: 1px;
+  line-height: 1em;
+  color: #828282;
+}
+
+/* line 11, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_footer.scss */
+#footer a {
+  border: 0;
+  color: #828282;
+}
+
+/* line 15, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_footer.scss */
+#footer a:hover {
+  color: #900055;
+}
+
+/* line 18, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_footer.scss */
+#footer ul.inline-list li:before {
+  content: '';
+  padding: 0 .5em;
+}
+
+/* line 23, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_footer.scss */
+#footer ul.inline-list li:first-child:before {
+  content: '';
+  padding: 0;
+}
+
+/* line 31, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_footer.scss */
+article footer:before {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 4em;
+  background-color: #828282;
+}
+
+/* line 38, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_footer.scss */
+article footer {
+  margin: 2em auto 3em auto;
+  color: #828282;
+}
+
+/* line 42, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_footer.scss */
+article footer p {
+  padding-top: .25em;
+}
+
+/* Jump to top
+------------------------------------------------------------------- */
+/* line 3, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_jump_to_top.scss */
+#up-to-top {
+  float: right;
+}
+
+/* line 6, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_jump_to_top.scss */
+#up-to-top a {
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  display: block;
+  padding: 0 .5em 0 .5em;
+}
+
+/* line 15, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_jump_to_top.scss */
+li#up-to-top {
+  display: block;
+  padding: 0 .2em 0 0;
+  border-radius: 3px;
+}
+
+/* line 20, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_jump_to_top.scss */
+li#up-to-top:hover {
+  background: #900055;
+  color: #fff;
+}
+
+/* line 24, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_jump_to_top.scss */
+#up-to-top a:hover {
+  color: #fff;
+}
+
+/* line 27, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_jump_to_top.scss */
+#footer ul.inline-list li#up-to-top:before {
+  content: '';
+  padding: 0;
+}
+
+/* Media Queries Layout
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+#masthead.header-image div {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 16em;
+}
+
+/* Small
+------------------------------------------------------------------- */
+@media (max-width: 639px) {
+  /* line 18, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #masthead {
+    font-size: 1em;
+  }
+
+  /* line 21, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #masthead.header-image {
+    height: 14em;
+    margin-bottom: 1em;
+  }
+
+  /* line 25, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #masthead.header-image div {
+    height: 12em;
+  }
+
+  /* line 28, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #pagination a:hover span.skip {
+    display: none;
+  }
+
+  /* Reduce Font-Size to get more space for elements of Topbar-Navigation */
+  /* line 32, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #tnav {
+    font-size: .75em;
+  }
+
+  /* line 35, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #tnav a {
+    padding: .5em 1em .5em 1em;
+    border: 0;
+  }
+
+  /* line 39, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #tnav-logo > a {
+    padding: .15em 1em .15em 1em;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+  }
+
+  /* line 46, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #tnav-share a,
+  #tnav-search a {
+    padding: .85em .5em .25em .5em;
+  }
+
+  /* Hide elements in Topbar-Navigation */
+  /* line 51, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  .tnav-hide {
+    display: none !important;
+  }
+}
+/* Medium
+------------------------------------------------------------------- */
+@media (min-width: 640px) and (max-width: 1024px) {
+  /* line 63, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #masthead {
+    font-size: 1em;
+  }
+
+  /* line 66, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #masthead.header-image {
+    height: 16em;
+    margin-bottom: 1em;
+  }
+
+  /* line 70, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #masthead.header-image div {
+    height: 14em;
+  }
+}
+/* Large
+------------------------------------------------------------------- */
+@media (min-width: 1025px) {
+  /* line 82, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #masthead {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  /* line 86, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #masthead.header-image {
+    height: 20em;
+    margin-bottom: 1em;
+  }
+
+  /* line 90, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_media_queries.scss */
+  #masthead.header-image div {
+    height: 18em;
+  }
+}
+/* Alerts
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box {
+  color: #fff;
+  background-color: #E4E4E4;
+  display: block;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  position: relative;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  border-radius: 3px;
+}
+
+/* line 14, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box p {
+  margin: 0;
+  padding: 0 .25em;
+  text-transform: none !important;
+}
+
+/* line 19, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box a {
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+}
+
+/* line 23, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+/* line 27, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.text,
+.alert-box.text a {
+  color: black;
+}
+
+/* line 32, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.text a {
+  border-bottom: 1px dotted #4b4b4d;
+}
+
+/* line 36, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.text a:hover {
+  border-bottom: 2px solid #4b4b4d;
+}
+
+/* line 40, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.info {
+  background: #0085ba;
+}
+
+/* line 43, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.alert {
+  background: #aa0132;
+}
+
+/* line 46, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.success {
+  background: #6a9519;
+}
+
+/* line 49, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.warning {
+  background: #e05a10;
+}
+
+/* line 52, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.terminal {
+  background: #4b4b4d;
+  margin-left: 0;
+  color: #fff;
+  font-family: "Source Code Pro", "Courier New", Monaco, monospace;
+}
+
+/* line 60, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.warning::before,
+.alert-box.alert::before,
+.alert-box.info::before,
+.alert-box.success::before {
+  margin-left: -1em;
+  font-size: 2em;
+  line-height: .75em;
+  float: left;
+}
+
+/* line 70, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.terminal::before {
+  content: "$ ";
+  color: #d4007a;
+  float: left;
+  margin-right: .5em;
+}
+
+/* line 77, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.warning::before {
+  content: "!";
+  color: #e05a10;
+}
+
+/* line 82, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.alert::before {
+  content: "!";
+  color: #aa0132;
+}
+
+/* line 87, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.info::before {
+  content: "i";
+  color: #0085ba;
+}
+
+/* line 92, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_alerts.scss */
+.alert-box.success::before {
+  content: ":)";
+  color: #6a9519;
+}
+
+/* Table of Contents (Index)
+------------------------------------------------------------------- */
+/* line 5, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+.first-h2 {
+  margin: 0;
+}
+
+/* line 9, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+ul.toc {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Source Sans Pro", "Neue Helvetica", Arial, serif;
+}
+
+/* line 16, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+ul.toc li {
+  border-top: 1px solid #E4E4E4;
+  line-height: 1.85em;
+}
+
+/* line 21, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+body.archive ul.toc li:nth-child(5n) {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+/* line 27, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+ul.toc li:last-child {
+  border-bottom: 1px solid #E4E4E4;
+}
+
+/* line 33, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+ul.toc li.archive-link {
+  border: 0;
+  border-top: 1px solid #E4E4E4;
+}
+
+/* line 38, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+ul.toc li a {
+  border: 0;
+  display: block;
+  -webkit-transition: all 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: all 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+/* line 46, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+ul.toc li a span {
+  color: #828282;
+  display: none;
+  padding-right: .5em;
+}
+
+/* line 52, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+ul.toc li a:hover span {
+  display: inline;
+}
+
+/* line 56, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+ul.toc li {
+  -webkit-transition: all 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: all 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+/* line 61, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_toc.scss */
+ul.toc li:hover {
+  background: #E4E4E4;
+  padding-left: .25em;
+}
+
+/* Buttons
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+button,
+.button,
+a.button {
+  color: #fff;
+  background-color: #900055;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  box-shadow: 0 3px #560033;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: all 0.25s ease-out;
+  vertical-align: middle;
+  padding: 0.25em 1em;
+  margin: 0 1em .25em 0;
+}
+
+/* line 24, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+button:hover,
+.button:hover {
+  background-color: #a63377;
+  border: 0 !important;
+}
+
+/* line 30, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+button:active,
+.button:active {
+  background-color: #a63377;
+  box-shadow: 0 5px #900055;
+  transform: translateY(2px);
+}
+
+/* Color Buttons */
+/* line 40, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+button.alert,
+a.alert {
+  background: #aa0132 !important;
+  box-shadow: 0 3px #66011e !important;
+}
+
+/* line 45, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+button.success,
+a.success {
+  background: #6a9519 !important;
+  box-shadow: 0 3px #40590f !important;
+}
+
+/* line 50, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+button.warning,
+a.warning {
+  background: #e05a10 !important;
+  box-shadow: 0 3px #86360a !important;
+}
+
+/* line 55, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+button.info,
+a.info {
+  background: #0085ba !important;
+  box-shadow: 0 3px #005070 !important;
+}
+
+/* line 60, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+button.grey,
+a.grey {
+  background: #4b4b4d !important;
+  box-shadow: 0 3px #2d2d2e !important;
+}
+
+/* line 67, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+a.alert:hover,
+button.alert:hover {
+  background: #99012d !important;
+}
+
+/* line 71, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+a.success:hover,
+button.success:hover {
+  background: #5f8617 !important;
+}
+
+/* line 75, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+a.warning:hover,
+button.warning:hover {
+  background: #ca510e !important;
+}
+
+/* line 79, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+a.info:hover,
+button.info:hover {
+  background: #0078a7 !important;
+}
+
+/* line 83, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_buttons.scss */
+a.grey:hover,
+button.grey:hover {
+  background: #444445 !important;
+}
+
+/* Responsive Video
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_responsive_video.scss */
+.flex-video {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 67.5%;
+  margin-bottom: 1em;
+}
+
+/* line 11, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_responsive_video.scss */
+.flex-video iframe, .flex-video object, .flex-video embed, .flex-video video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+/* Panel
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.border-dotted {
+  border: 1px dotted #828282;
+  padding: 1em;
+  border-radius: 3px;
+}
+
+/* Colors
+------------------------------------------------------------------- */
+/* line 14, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.ci-1 {
+  color: #900055;
+}
+
+/* line 15, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.ci-2 {
+  color: #d4007a;
+}
+
+/* line 16, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.ci-3 {
+  color: #fabb00;
+}
+
+/* line 17, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.ci-4 {
+  color: #f5b6c9;
+}
+
+/* line 19, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.ci-1-bg {
+  background: #900055;
+}
+
+/* line 20, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.ci-2-bg {
+  background: #d4007a;
+}
+
+/* line 21, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.ci-3-bg {
+  background: #fabb00;
+}
+
+/* line 22, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.ci-4-bg {
+  background: #f5b6c9;
+}
+
+/* line 24, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.alert-color {
+  color: #aa0132;
+}
+
+/* line 25, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.success-color {
+  color: #6a9519;
+}
+
+/* line 26, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.warning-color {
+  color: #e05a10;
+}
+
+/* line 27, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.info-color {
+  color: #0085ba;
+}
+
+/* line 29, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.alert-color-bg {
+  background: #aa0132;
+}
+
+/* line 30, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.success-color-bg {
+  background: #6a9519;
+}
+
+/* line 31, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.warning-color-bg {
+  background: #e05a10;
+}
+
+/* line 32, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.info-color-bg {
+  background: #0085ba;
+}
+
+/* line 35, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.grey {
+  color: #828282;
+}
+
+/* line 36, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.grey-light {
+  color: #E4E4E4;
+}
+
+/* line 37, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.grey-dark {
+  color: #4b4b4d;
+}
+
+/* CSS-Classes to add margin at top or bottom
+------------------------------------------------------------------- */
+/* line 43, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.tem1 {
+  margin-top: 1em !important;
+}
+
+/* line 44, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.tem2 {
+  margin-top: 2em !important;
+}
+
+/* line 45, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.tem3 {
+  margin-top: 3em !important;
+}
+
+/* line 46, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.tem4 {
+  margin-top: 4em !important;
+}
+
+/* line 48, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.bem1 {
+  margin-bottom: 1em !important;
+}
+
+/* line 49, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.bem2 {
+  margin-bottom: 2em !important;
+}
+
+/* line 50, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.bem3 {
+  margin-bottom: 3em !important;
+}
+
+/* line 51, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_elements.scss */
+.bem4 {
+  margin-bottom: 4em !important;
+}
+
+/* line 1, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_inline_list.scss */
+ul.inline-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 6, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_inline_list.scss */
+ul.inline-list li {
+  display: inline;
+}
+
+/* Introduction page
+------------------------------------------------------------------- */
+/* line 4, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_introduction_page.scss */
+body.introduction img {
+  border-radius: 50%;
+}
+
+/* line 7, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_introduction_page.scss */
+body.introduction #content {
+  min-height: 500px;
+}
+
+/* line 10, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_layout_introduction_page.scss */
+.introduction-text p {
+  margin: 0 auto 1em auto;
+}
+
+/* line 1, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_social_media_icons.scss */
+.social-media-icon,
+.social-media-icon:link,
+.social-media-icon:hover,
+.social-media-icon:visited,
+.social-media-icon:active {
+  border: 0;
+}
+
+/* line 10, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_social_media_icons.scss */
+.social-media-icon svg {
+  margin-bottom: -.35em;
+  height: 1.5em;
+  width: 1.5em;
+  fill: #828282;
+  transition: all 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+/* line 17, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_social_media_icons.scss */
+.social-media-icon:hover svg {
+  fill: #900055;
+}
+
+/* line 20, /Users/johnanthonyjose/Documents/Github/johnanthonyjose.github.io/_sass/05_layout/_social_media_icons.scss */
+#footer ul.inline-list li.social-media-icon:before {
+  content: '';
+  padding: 0;
+}
