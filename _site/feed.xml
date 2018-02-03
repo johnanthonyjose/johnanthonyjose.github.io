@@ -5,13 +5,20 @@
     <description>Test Run for my personal blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Feb 2018 18:26:12 +0800</pubDate>
-    <lastBuildDate>Sat, 03 Feb 2018 18:26:12 +0800</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2018 00:05:01 +0800</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2018 00:05:01 +0800</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>
         <title>Getting Started</title>
-        <description>&lt;p&gt;This is my front page. I’m just starting to populate my blog. 
+        <description>&lt;p&gt;This is my front page. I’m just starting to populate my blog. I’ve added some mathjax plugin. hello world&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{aligned}
+\dot{x} &amp; = \sigma(y-x) \\
+\dot{y} &amp; = \rho x - y - xz \\
+\dot{z} &amp; = -\beta z + xy
+\end{aligned} %]]&gt;&lt;/script&gt;
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Right now, I am creating a personal blog for Engineering Mechanics Dynamics. If you’re interested on my project, contribute on my &lt;a href=&quot;https://github.com/johnanthonyjose/johnanthonyjose&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
@@ -19,6 +26,33 @@
         <pubDate>Sat, 03 Feb 2018 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/getting-started/</link>
         <guid isPermaLink="true">http://localhost:4000/getting-started/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>About this Theme – Path in Curvilinear Coordinates</title>
+        <description>&lt;p&gt;Curvilinear Problem Example 2&lt;/p&gt;
+
+&lt;p&gt;A car starts from rest at point A and increases its speed at a constant rate as it enters a curve. The magnitude of the total acceleration of the car as it passes point B, which is &lt;script type=&quot;math/tex&quot;&gt;\frac{400}{3}  m&lt;/script&gt; along the curve from point A, is &lt;script type=&quot;math/tex&quot;&gt;2.5 \frac{m}{s^2}&lt;/script&gt;. The radius of curvature at point B is 200 m.&lt;/p&gt;
+
+&lt;p&gt;a.) Determine the normal and tangential components of the acceleration at point B&lt;/p&gt;
+
+&lt;p&gt;b.) If the tangential acceleration at point B is directed downward to the right at an angle of &lt;script type=&quot;math/tex&quot;&gt;36.87^\circ&lt;/script&gt; below the horizontal and the normal acceleration is also directed downward, determine the rectangular components of the acceleration at point B.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;SOLUTION:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Step 1: Draw&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Just like in any of our problems, we try to visualize first the problem before solving it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;https://docs.google.com/drawings/d/e/2PACX-1vQjMbD73j9_KiMmq7oeWGkKOHhUWTXvCP4fZF1IKf26vEeqDEP0bt6rzIcLKrOW7Do1V7H5vZ6DG71w/pub?w=470&amp;amp;h=275&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Feb 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/curvilinear-example1/</link>
+        <guid isPermaLink="true">http://localhost:4000/curvilinear-example1/</guid>
         
         
       </item>
