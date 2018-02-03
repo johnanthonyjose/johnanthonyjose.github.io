@@ -1,6 +1,8 @@
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+---
+image: 'photo-matteo-paganelli.jpg'
+caption: 'Photo Matteo Paganelli'
+caption_url: 'http://www.mpaga.it/'
+mathjax: true
 ---
 
 This is my front page. I'm just starting to populate my blog. I've added some mathjax plugin.
