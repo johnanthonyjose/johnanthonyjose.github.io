@@ -5,12 +5,7 @@
 
 This is my front page. I'm just starting to populate my blog. I've added some mathjax plugin.
 
-$$\begin{aligned}
-\dot{x} & = \sigma(y-x) \\
-\dot{y} & = \rho x - y - xz \\
-\dot{z} & = -\beta z + xy
-\end{aligned}$$
-
+$$a^2 + b^2 = c^2$$
 
 <!--more-->
 
