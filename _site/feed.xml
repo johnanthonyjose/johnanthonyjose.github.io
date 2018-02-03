@@ -5,8 +5,8 @@
     <description>Test Run for my personal blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Feb 2018 01:06:38 +0800</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2018 01:06:38 +0800</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2018 01:14:24 +0800</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2018 01:14:24 +0800</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>
@@ -18,12 +18,7 @@
 
 &lt;p&gt;This is my front page. I’m just starting to populate my blog. I’ve added some mathjax plugin.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{aligned}
-\dot{x} &amp; = \sigma(y-x) \\
-\dot{y} &amp; = \rho x - y - xz \\
-\dot{z} &amp; = -\beta z + xy
-\end{aligned} %]]&gt;&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;
 
 &lt;!--more--&gt;
 
