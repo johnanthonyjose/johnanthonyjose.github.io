@@ -3,7 +3,8 @@ image: 'photo-matteo-paganelli.jpg'
 caption: 'Photo Matteo Paganelli'
 caption_url: 'http://www.mpaga.it/'
 ---
-This is my front page. I'm just starting to populate my blog. I've added some mathjax plugin.
+This is my front page. I'm just starting to populate my blog. I've added some mathjax plugin. hello world
+
 $$\begin{aligned}
 \dot{x} & = \sigma(y-x) \\
 \dot{y} & = \rho x - y - xz \\
