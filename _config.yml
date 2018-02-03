@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 #   SETTINGS OVERVIEW
 #
@@ -264,3 +265,6 @@ compress_html:
   ignore:
     envs: [development]
 
+=======
+theme: jekyll-theme-slate
+>>>>>>> 6883b484423bc2da27c98ba182c44c358d494563
