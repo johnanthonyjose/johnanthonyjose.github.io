@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #
 #   SETTINGS OVERVIEW
 #
@@ -26,16 +25,16 @@
 
 
 # Title and description of your site
-title         : 'Simplicity'
-description   : 'Simplicity is a fast and easy to use jekyll theme for minimalists concentrating on elegance and flexibility.'
-slogan        : 'A Minimalistic Jekyll Theme'
+title         : 'John Anthony Jose'
+description   : 'Test Run for my personal blog'
+slogan        : 'A Minimalistic and simplistic them'
 
 # The language setting is used in /includes/header.html for html-settings
 lang: "en"
 
 # Build settings
-url           : 'https://phlow.github.io'
-baseurl       : '/simplicity'
+url           : 'https://johnanthonyjose.github.io'
+baseurl       : ''
 markdown      : kramdown
 highlighter   : rouge
 permalink     : /:categories/:title/
@@ -122,7 +121,7 @@ defaults:
       layout: page      # Set default layout to page
       show_meta: false  # Hide metadata for all pages
       comments: false
-      author: 'Moritz »mo.« Sauer'     # Default author for pages
+      author: 'John Anthony Jose'     # Default author for pages
   -
     scope:
       path: ''
@@ -131,7 +130,7 @@ defaults:
       layout: page      # Set default layout to page
       show_meta: true   # Show metadata for all posts
       comments: false
-      author: 'Moritz »mo.« Sauer'     # Default author for posts
+      author: 'John Anthony Jose'     # Default author for posts
 
 
 
@@ -217,10 +216,10 @@ sass:
 # _/includes/_4_footer.html.
 
 socialmedia:
-    youtube: PhlowMedia
-    github: phlow
-    twitter: phlow
-    # facebook: phlow.media
+    # youtube: PhlowMedia
+    github: johnanthonyjose
+    # twitter: phlow
+    facebook: john.anthony.jose1993
     # soundcloud: phlow
     # tumblr: motizen
     # instagram: phlowmedia
@@ -265,6 +264,3 @@ compress_html:
   ignore:
     envs: [development]
 
-=======
-theme: jekyll-theme-slate
->>>>>>> 6883b484423bc2da27c98ba182c44c358d494563
