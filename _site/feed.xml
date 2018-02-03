@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simplicity – A Minimalistic Jekyll Theme</title>
+    <description>Simplicity is a fast and easy to use jekyll theme for minimalists concentrating on elegance and flexibility.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 03 Feb 2018 16:58:46 +0800</pubDate>
+    <lastBuildDate>Sat, 03 Feb 2018 16:58:46 +0800</lastBuildDate>
+    <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>Getting Started</title>
+        <description>&lt;p&gt;If you know Jekyll well, you just need five minutes to start your own blog with &lt;em&gt;Simplicity&lt;/em&gt;. If you know some CSS and Sass, you even customize your site in minutes. Everything is well-documented inside each file. Give it a go!&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Phlow/simplicity&quot;&gt;Download &lt;em&gt;Simplicity&lt;/em&gt; on GitHub.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Open &lt;em&gt;_config.yml&lt;/em&gt; and work it through. It’s well documented.&lt;/li&gt;
+  &lt;li&gt;Delete all files in &lt;em&gt;_posts/&lt;/em&gt; and &lt;em&gt;images/&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Open a template from &lt;em&gt;_drafts/&lt;/em&gt;, save it in &lt;em&gt;_posts/&lt;/em&gt; and write your first post.&lt;/li&gt;
+  &lt;li&gt;Publish!&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 14 Dec 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/getting-started/</link>
+        <guid isPermaLink="true">http://localhost:4000/getting-started/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>About this Theme – What's special about &lt;em&gt;Simplicity&lt;/em&gt;?</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Simplicity…&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;…delivers your site fast.&lt;/strong&gt; No Javascript/jQuery needed.&lt;br /&gt;
+&lt;strong&gt;…offers flexible styling&lt;/strong&gt; of your content.&lt;br /&gt;
+&lt;strong&gt;…helps you&lt;/strong&gt; and is well-documented.&lt;br /&gt;
+&lt;strong&gt;…is highly customizable&lt;/strong&gt; and offers Tumblr-like postings.&lt;br /&gt;
+&lt;strong&gt;…is stylish&lt;/strong&gt; with beautiful typography.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;There are lots of great themes for Jekyll to start a new blog, portfolio or website. Either these themes are bloated because they use Bootstrap, Foundation, jQuery or they are so minimal, that it doesn’t make fun to use them.&lt;/p&gt;
+
+&lt;div class=&quot;border-dotted text-center&quot;&gt;
+  &lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=38&amp;amp;txt=Ad%20Space&amp;amp;w=336&amp;amp;h=280&amp;amp;fm=png&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;speed&quot;&gt;Speed&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Simplicity&lt;/em&gt; goes a different path: Webpages built with &lt;em&gt;Simplicity&lt;/em&gt; are &lt;strong&gt;superfast&lt;/strong&gt; without unnecessary clutter unless you need it. Your readers will love your site because HTML- and CSS-files are minified and only a few requests are needed to load the site. If you don’t go crazy on images, it will be the fastest website possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;customization&quot;&gt;Customization&lt;/h2&gt;
+
+&lt;p&gt;When I built my first official theme called &lt;a href=&quot;http://phlow.github.io/feeling-responsive/&quot;&gt;&lt;em&gt;Feeling Responsive&lt;/em&gt;&lt;/a&gt; I wanted to built a flexible site built on-top of Foundation. The main goal was to deliver a theme to produce high quality site. I use it for my clients and it works fine. &lt;em&gt;Simplicity&lt;/em&gt; benefits from this. &lt;strong&gt;But&lt;/strong&gt; I wanted and needed a blog which is even fast without unnecessary clutter and foremost &lt;em&gt;no Javascript&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-i-like-best-about-simplicity&quot;&gt;What I like best about &lt;em&gt;Simplicity&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;I adore minimalism. I love blogs with reduced interfaces which concentrate on content, speed and typography. Even when I visit these blogs with a bad mobile connection, they deliver content and user experience fast. &lt;strong&gt;And&lt;/strong&gt; I figured out a way to reduce the amount of work to be done, when you start blogging. That’s why &lt;em&gt;Simplicity&lt;/em&gt; was born. To start a post, you just have to add one line of front matter:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+title: New Posting
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then start writing.&lt;/p&gt;
+
+&lt;h2 id=&quot;beef-it-up&quot;&gt;Beef it up!&lt;/h2&gt;
+
+&lt;p&gt;Minimalism and simplicity don’t stand for an option-less theme. On the contrary! You can style your content quickly in many ways. &lt;em&gt;Simplicity&lt;/em&gt; allows you to use additional front matter variables, but you don’t need them. You want to post a video? Just add…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;youtube: https://www.youtube.com/watch?v=8pQAWOCofXo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;…and the theme uses the variable to add the video on top of your headline. You like subheadines, like I do? Add…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;subheadline: Webdesign
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;…and Simplicity adds it.&lt;/p&gt;
+
+&lt;p&gt;You want an image on top of your article? Just add…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;image: death-to-the-stock-photography-3457.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And refine it with a caption and/or link if needed:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;caption: Death to Stock Photography
+caption_url: http://deathtothestockphoto.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 13 Dec 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/about-simplicity/</link>
+        <guid isPermaLink="true">http://localhost:4000/about-simplicity/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Fullwidth Page</title>
+        <description>&lt;p&gt;This is the full-width page. Use the &lt;a href=&quot;http://foundation.zurb.com/grid.html&quot;&gt;Foundation 6 Grid&lt;/a&gt; to make everything out of this page. Every layout you desire.
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;img src=&quot;http://dummyimage.com/200x200/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;http://dummyimage.com/200x200/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;small-2 large-4 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;small-4 large-4 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;small-6 large-4 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;large-3 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;large-6 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;large-3 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-6 large-2 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;small-6 large-8 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;small-12 large-2 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-3 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;small-9 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;large-4 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;large-8 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-6 large-5 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;small-6 large-7 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;large-6 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+  &lt;div class=&quot;large-6 columns&quot;&gt;&lt;img src=&quot;http://dummyimage.com/1200x600/900054/f5b6c9&amp;amp;text=Placeholder&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 12 Dec 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/fullwidth-page/</link>
+        <guid isPermaLink="true">http://localhost:4000/fullwidth-page/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Reading Experience – Handcrafted Typography</title>
+        <description>&lt;p&gt;With &lt;em&gt;Simplicity&lt;/em&gt; you can use your favorite web font. Based on one font-size you can change the font and the size in a blink of an eye. Set your favorite font in &lt;em&gt;_config.yml&lt;/em&gt;. To customize your typography settings just open &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/_04_typography.scss&lt;/code&gt; and make your adjustements.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;the-elements-of-typographic-style&quot;&gt;The Elements of Typographic Style&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;»I do not think of type as something that should be readable. It should be beautiful.«&lt;cite&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ed_Benguiat&quot;&gt;Ed Benguiat&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For too long typographic style and its accompanying attention to detail have been overlooked by website designers, particularly in body copy. In years gone by this could have been put down to the technology, but now the web has caught up. The advent of much improved browsers, text rendering and high resolution screens, combine to negate technology as an excuse.&lt;/p&gt;
+
+&lt;p&gt;Robert Bringhurst’s book The Elements of Typographic Style is on many a designer’s bookshelf and is considered to be a classic in the field. Indeed the renowned typographer Hermann Zapf proclaims the book to be a must for everybody in the graphic arts, and especially for our new friends entering the field.&lt;/p&gt;
+
+&lt;p&gt;In order to allay some of the myths surrounding typography on the web, I have structured this website to step through Bringhurst’s working principles, explaining how to accomplish each using techniques available in HTML and CSS. The future is considered with coverage of CSS3, and practicality is ever present with workarounds, alternatives and compromises for less able browsers.&lt;/p&gt;
+
+&lt;p&gt;At the time of writing, this is a work in progress. I am adding to the site in the order presented in Bringhurst’s book, one principle at a time.&lt;/p&gt;
+
+&lt;p&gt;I am excluding those principles which are not relevant to the Web or that do not require a technical explanation. Unfortunately this excludes the entire opening chapter, the Grand Design, which I heartily recommend you read as it lays down the foundations, philosophy and approach to good typography in any medium. If you were to take any working principle from the Grand Design, it would be this: Give full typographical attention even to incidental details.&lt;/p&gt;
+
+&lt;p&gt;Now start with &lt;a href=&quot;http://webtypography.net/2.1.1&quot;&gt;Rhythm &amp;amp; Proportion&lt;/a&gt; or dip into the &lt;a href=&quot;http://webtypography.net/toc&quot;&gt;Table of Contents&lt;/a&gt; and enjoy pushing a few boundaries to create websites of real typographical worth.&lt;/p&gt;
+
+&lt;div class=&quot;alert-box text &quot;&gt;&lt;p&gt;This excerpt was taken from &lt;a href=&quot;http://webtypography.net/&quot;&gt;webtypography.net&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 class=&quot;t60&quot; id=&quot;typographical-elements&quot;&gt;Typographical Elements&lt;/h2&gt;
+
+&lt;p&gt;Here you’ll find the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list&quot;&gt;complete list of HTML5-Tags&lt;/a&gt; and this is how they look like.&lt;/p&gt;
+
+&lt;h3 id=&quot;hr-horizontal-line&quot;&gt;&amp;lt;hr&amp;gt; Horizontal Line&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;pre-displaying-code&quot;&gt;&amp;lt;pre&amp;gt; Displaying Code&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Code Blocks&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;blockquote-quotation&quot;&gt;&amp;lt;blockquote&amp;gt; Quotation&lt;/h3&gt;
+&lt;blockquote&gt;Everything happens for a reason. (Britney Spears)&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;blockquote-and-cite--together&quot;&gt;&amp;lt;blockquote&amp;gt; and &amp;lt;cite&amp;gt;  together&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Age is an issue of mind over matter. If you don’t mind, it doesn’t matter.
+&lt;cite&gt;Mark Twain&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;ol-ordered-lists&quot;&gt;&amp;lt;ol&amp;gt; Ordered Lists&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ordered List&lt;/li&gt;
+  &lt;li&gt;Second List Item&lt;/li&gt;
+  &lt;li&gt;Third List Item
+    &lt;ol&gt;
+      &lt;li&gt;Second Level First Item&lt;/li&gt;
+      &lt;li&gt;Second Level Second Item&lt;/li&gt;
+      &lt;li&gt;Second Level Third Item
+        &lt;ol&gt;
+          &lt;li&gt;And a third level First Item&lt;/li&gt;
+          &lt;li&gt;And a third level Second Item&lt;/li&gt;
+          &lt;li&gt;And a third level Third Item&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fourth List Item&lt;/li&gt;
+  &lt;li&gt;Fifth List Item&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;ul-unordered-lists&quot;&gt;&amp;lt;ul&amp;gt; Unordered Lists&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unordered List&lt;/li&gt;
+  &lt;li&gt;Second List Item&lt;/li&gt;
+  &lt;li&gt;Third List Item
+    &lt;ul&gt;
+      &lt;li&gt;Second Level First Item&lt;/li&gt;
+      &lt;li&gt;Second Level Second Item&lt;/li&gt;
+      &lt;li&gt;Second Level Third Item
+        &lt;ul&gt;
+          &lt;li&gt;And a third level First Item&lt;/li&gt;
+          &lt;li&gt;And a third level Second Item&lt;/li&gt;
+          &lt;li&gt;And a third level Third Item&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fourth List Item&lt;/li&gt;
+  &lt;li&gt;Fifth List Item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dl-definition-lists&quot;&gt;&amp;lt;dl&amp;gt; Definition Lists&lt;/h3&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Definition List&lt;/dt&gt;
+  &lt;dd&gt;Bacon ipsum dolor sit amet spare ribs brisket ribeye, andouille sirloin bresaola frankfurter corned beef capicola bacon. Salami beef ribs sirloin, short loin hamburger shoulder t-bone.&lt;/dd&gt;
+  &lt;dt&gt;Beef ribs jowl swine porchetta&lt;/dt&gt;
+  &lt;dd&gt;Sirloin tenderloin swine frankfurter pork loin pork capicola ham hock strip steak ribeye beef ribs. Hamburger t-bone ribeye ham prosciutto bresaola.&lt;/dd&gt;
+  &lt;dt&gt;Pancetta flank sirloin pork&lt;/dt&gt;
+  &lt;dd&gt;short ribs shankle prosciutto landjaeger. Beef ribs turkey shoulder drumstick. Leberkas pork belly ribeye, bresaola jerky strip steak tenderloin bacon landjaeger short ribs beef ribs. Flank pork chop fatback tail kielbasa filet mignon jowl landjaeger bresaola tongue corned beef biltong.&lt;/dd&gt;
+  &lt;dd&gt;Landjaeger spare ribs fatback corned beef tenderloin drumstick, swine chicken beef turkey biltong doner tri-tip filet mignon.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3 id=&quot;a&quot;&gt;&amp;lt;a&amp;gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://phlow.de/&quot;&gt;Links&lt;/a&gt; make the web exceptional.&lt;/p&gt;
+
+&lt;h3 id=&quot;em&quot;&gt;&amp;lt;em&amp;gt;&lt;/h3&gt;
+&lt;p&gt;Let’s &lt;em&gt;emphasize&lt;/em&gt; how important responsive webdesign is.&lt;/p&gt;
+
+&lt;h3 id=&quot;strong&quot;&gt;&amp;lt;strong&amp;gt;&lt;/h3&gt;
+&lt;p&gt;This looks like &lt;strong&gt;bold&lt;/strong&gt; text.&lt;/p&gt;
+
+&lt;h3 id=&quot;small&quot;&gt;&amp;lt;small&amp;gt;&lt;/h3&gt;
+&lt;p&gt;&lt;small&gt;This is small text.&lt;/small&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;s&quot;&gt;&amp;lt;s&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;It’s nice getting things done. Just strike through &lt;s&gt;finished tasks&lt;/s&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;cite&quot;&gt;&amp;lt;cite&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;cite&gt;Albert Einstein&lt;/cite&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;q&quot;&gt;&amp;lt;q&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;If you use &amp;lt;q&amp;gt; your text gets &lt;q&gt;automagically quotes around the text passage&lt;/q&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;dfn&quot;&gt;&amp;lt;dfn&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;The &amp;lt;dfn&amp;gt; tag is a phrase tag. It defines a &lt;dfn&gt;definition term&lt;/dfn&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;abbr&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;The &lt;abbr title=&quot;World Health Organization&quot;&gt;WHO&lt;/abbr&gt; was founded in 1948.&lt;/p&gt;
+
+&lt;h3 id=&quot;time&quot;&gt;&amp;lt;time&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;The concert took place on &lt;time datetime=&quot;2001-05-15 19:00&quot;&gt;May 15&lt;/time&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;&amp;lt;code&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;Some &lt;code class=&quot;highlighter-rouge&quot;&gt;code: lucida console&lt;/code&gt; displayed.&lt;/p&gt;
+
+&lt;h3 id=&quot;var&quot;&gt;&amp;lt;var&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;The &amp;lt;var&amp;gt; tag is a phrase tag. It defines a &lt;var&gt;variable&lt;/var&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;samp&quot;&gt;&amp;lt;samp&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;Text surrounded by &amp;lt;samp&amp;gt; &lt;samp&gt;looks like this in monospace&lt;/samp&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;kbd&quot;&gt;&amp;lt;kbd&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;Copycats enjoy pressing &lt;kbd&gt;CMD&lt;/kbd&gt; + &lt;kbd&gt;c&lt;/kbd&gt; and &lt;kbd&gt;CMD&lt;/kbd&gt; + &lt;kbd&gt;v&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;sub&quot;&gt;&amp;lt;sub&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;This text &lt;sub&gt;lays low&lt;/sub&gt; and chills a bit.&lt;/p&gt;
+
+&lt;h3 id=&quot;sup&quot;&gt;&amp;lt;sup&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;This text &lt;sup&gt;gets high&lt;/sup&gt; above the clouds.&lt;/p&gt;
+
+&lt;h3 id=&quot;i&quot;&gt;&amp;lt;i&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;This looks &lt;i&gt;italic&lt;/i&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;b&quot;&gt;&amp;lt;b&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;This looks &lt;b&gt;bold&lt;/b&gt;, too.&lt;/p&gt;
+
+&lt;h3 id=&quot;u&quot;&gt;&amp;lt;u&amp;gt;&lt;/h3&gt;
+
+&lt;div&gt;&lt;p&gt;&lt;u&gt;Underlining&lt;/u&gt; content for emphasize is not the best choice. You can't read it so well.&lt;/p&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;mark&quot;&gt;&amp;lt;mark&amp;gt;&lt;/h3&gt;
+&lt;p&gt;Let’s &lt;mark&gt;mark this hint&lt;/mark&gt; to give you a clue.&lt;/p&gt;
+
+&lt;h3 id=&quot;br&quot;&gt;&amp;lt;br&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;Need a break? I give you three!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
+
+&lt;p&gt;If you need footnotes for your posts, articles and entries, the Kramdown-Parser &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; got you covered. How to use footnotes? Read this footnote. &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;headlines&quot;&gt;Headlines&lt;/h2&gt;
+
+&lt;h1 id=&quot;h1-heading&quot;&gt;&amp;lt;h1&amp;gt;-Heading&lt;/h1&gt;
+
+&lt;h2 id=&quot;h2-heading&quot;&gt;&amp;lt;h2&amp;gt;-Heading&lt;/h2&gt;
+
+&lt;h3 id=&quot;h3-heading&quot;&gt;&amp;lt;h3&amp;gt;-Heading&lt;/h3&gt;
+
+&lt;h4 id=&quot;h4-heading&quot;&gt;&amp;lt;h4&amp;gt;-Heading&lt;/h4&gt;
+
+&lt;h5 id=&quot;h5-heading&quot;&gt;&amp;lt;h5&amp;gt;-Heading&lt;/h5&gt;
+
+&lt;h6 id=&quot;h6-heading&quot;&gt;&amp;lt;h6&amp;gt;-Heading&lt;/h6&gt;
+
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+
+&lt;p&gt;Even tables are responsive thanks to foundation. A table can consist of these elements.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;caption&gt;&amp;lt;table&amp;gt; defines an HTML table&lt;/caption&gt;
+  &lt;colgroup&gt;
+    &lt;col span=&quot;1&quot; style=&quot;width: 15%;&quot; /&gt;&amp;lt;/col&amp;gt;
+    &lt;col span=&quot;1&quot; style=&quot;width: 50%;&quot; /&gt;&amp;lt;/col&amp;gt;
+    &lt;col span=&quot;1&quot; style=&quot;width: 35%;&quot; /&gt;&amp;lt;/col&amp;gt;
+  &lt;/colgroup&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;HTML Tag&lt;/th&gt;
+      &lt;th&gt;Defintion&lt;/th&gt;
+      &lt;th&gt;Style&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;caption&amp;gt;&lt;/td&gt;
+      &lt;td&gt;defines a table caption&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;font-weight: bold;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;colgroup&amp;gt;&lt;/td&gt;
+      &lt;td&gt;specifies a group of one or more columns in a table for 
+formatting. The &amp;lt;colgroup&amp;gt; tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;col&amp;gt;&lt;/td&gt;
+      &lt;td&gt;specifies column properties for each column within a `&amp;lt;colgroup&amp;gt;` 
+element&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;thead&amp;gt;&lt;/td&gt;
+      &lt;td&gt;is used to group header content in an HTML table&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;font-weight: bold;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;tbody&amp;gt;&lt;/td&gt;
+      &lt;td&gt;is used to group the body content in an HTML table&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;tr&amp;gt;&lt;/td&gt;
+      &lt;td&gt;defines a row in an HTML table&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;th&amp;gt;&lt;/td&gt;
+      &lt;td&gt;defines a header cell in an HTML table&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;font-weight: bold;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;td&amp;gt;&lt;/td&gt;
+      &lt;td&gt;defines a standard cell in an HTML table&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;font-weight: normal;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;tfoot&amp;gt;&lt;/td&gt;
+      &lt;td&gt;is used to group footer content in an HTML table&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+&amp;lt;/table&amp;gt;
+
+
+
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Find out more about Kramdown on &lt;a href=&quot;http://kramdown.gettalong.org/&quot;&gt;http://kramdown.gettalong.org/&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Kramdown has an excellent documentation of all its features. Check out, on how to &lt;a href=&quot;http://kramdown.gettalong.org/syntax.html#footnotes&quot;&gt;footnotes&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 11 Dec 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/handcrafted-typography/</link>
+        <guid isPermaLink="true">http://localhost:4000/handcrafted-typography/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Full Width Header Images</title>
+        <description>&lt;p&gt;Sometimes you want to support your article with a beautiful full width header image. &lt;em&gt;Simplicity&lt;/em&gt; offers you exactly that.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to work fast, just use…&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;header_image: 'header_image.jpg'&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you need caption or you want to credit someone for the image…&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;header_image: 'header_image.jpg'
+header_caption: 'Photo by Greg Rakozy'
+header_caption_url: 'https://unsplash.com/grakozy/portfolio'&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Tue, 08 Dec 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/header-image/</link>
+        <guid isPermaLink="true">http://localhost:4000/header-image/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Search Engine Optimization</title>
+        <description>&lt;p&gt;&lt;em&gt;Simplicity&lt;/em&gt; offers you lots of options to optimize your content for search engines like Google.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;meta_title:&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;meta_description:&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;permalink:&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Simplicity’s&lt;/em&gt; HTML-Code uses schema.org-meta data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;optimize-your-articles&quot;&gt;Optimize Your Articles&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Simplicity&lt;/em&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;title: Your Post Title&lt;/code&gt; by default for generating the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt;. You can overwrite the title with:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;meta_title:&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To taylor fit a description for Google &amp;amp; Co. use…&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;meta_description: &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;…otherwise &lt;em&gt;Simplicity&lt;/em&gt; will use the excerpt or the first paragraph of your content.&lt;/p&gt;
+
+&lt;p&gt;The last important SEO-setting is the URL. By default &lt;em&gt;Simplicity&lt;/em&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;permalink: /:categories/:title/&lt;/code&gt; but of course you can change the settings in &lt;em&gt;_config.yml&lt;/em&gt; or overwrite the URL in front matter with…&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;permalink:&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;optimize-your-site&quot;&gt;Optimize Your Site&lt;/h2&gt;
+
+&lt;p&gt;And while we discuss search engine optimization: Submit your site to Google Webmaster Tools/Search Console and Bing and enter the your Google Site Verification ID in &lt;em&gt;_config.yml&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;google_site_verification:&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;And last but not least, submit your &lt;em&gt;sitemap.xml&lt;/em&gt; to Google Search Console and Bing Webmaster Tools.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Nov 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/search-engine-optimization/</link>
+        <guid isPermaLink="true">http://localhost:4000/search-engine-optimization/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Using Gists</title>
+        <description>&lt;p&gt;A pastebin is a type of web application where users can store plain text. They are most commonly used to share short source code snippets for code review via Internet Relay Chat.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;To include a Gist use the following command. The result is shown beneath.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% gist Phlow/a0e3fa686eb259fe7f76 %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;a-gist-from-phlow&quot;&gt;A Gist from Phlow&lt;/h2&gt;
+
+&lt;script src=&quot;https://gist.github.com/Phlow/a0e3fa686eb259fe7f76.js&quot;&gt; &lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 28 Nov 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/using-gists/</link>
+        <guid isPermaLink="true">http://localhost:4000/using-gists/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Highlighting Code</title>
+        <description>&lt;p&gt;&lt;em&gt;Simplicity&lt;/em&gt; is GitHub Pages-ready, that means, it uses Rouge for syntax highlighting. To adjust the code highlighting to your taste, Just open &lt;em&gt;_sass/_07_syntax_highlighting.scss&lt;/em&gt; and tune the colors to your taste.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;To learn more, read &lt;a href=&quot;http://alistapart.com/article/mixing-color-for-the-web-with-sass&quot;&gt;»Mixing Color for the Web with Sass«&lt;/a&gt; or check out the &lt;a href=&quot;http://sass-lang.com/documentation/Sass/Script/Functions.html&quot;&gt;Sass-manual with all the functions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;rouge&quot;&gt;Rouge&lt;/h2&gt;
+
+&lt;p&gt;To render a code block with syntax highlighting, surround your code as follows:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% highlight &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you need lines, add &lt;code class=&quot;highlighter-rouge&quot;&gt;linenos&lt;/code&gt;…&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% highlight &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;linenos&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Sat, 28 Nov 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/highlighting/</link>
+        <guid isPermaLink="true">http://localhost:4000/highlighting/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Style Guide</title>
+        <description>&lt;p&gt;The &lt;em&gt;Simplicity&lt;/em&gt; styleguide lists all available elemnts to style your content.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;colors&quot;&gt;Colors&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Simplicity&lt;/em&gt; allows you to change the colors to your taste quickly. Just open &lt;em&gt;_sass/_01_colors.scss&lt;/em&gt; and tune your colors.&lt;/p&gt;
+
+&lt;p&gt;Four possible brand colors and four colors to style alerts.&lt;/p&gt;
+
+&lt;div class=&quot;ci-1-bg text-center&quot; style=&quot;float: left; line-height: 7em;width: 7em;height:7em&quot;&gt;CI-1&lt;/div&gt;
+&lt;div class=&quot;ci-2-bg text-center&quot; style=&quot;float: left; line-height: 7em;width: 7em;height:7em&quot;&gt;CI-2&lt;/div&gt;
+&lt;div class=&quot;ci-3-bg text-center&quot; style=&quot;float: left; line-height: 7em;width: 7em;height:7em&quot;&gt;CI-3&lt;/div&gt;
+&lt;div class=&quot;ci-4-bg text-center&quot; style=&quot;float: left; line-height: 7em;width: 7em;height:7em&quot;&gt;CI-4&lt;/div&gt;
+
+&lt;div class=&quot;alert-color-bg text-center&quot; style=&quot;float: left; line-height: 7em;width: 7em;height:7em&quot;&gt;alert&lt;/div&gt;
+&lt;div class=&quot;success-color-bg text-center&quot; style=&quot;float: left; line-height: 7em;width: 7em;height:7em&quot;&gt;success&lt;/div&gt;
+&lt;div class=&quot;warning-color-bg text-center&quot; style=&quot;float: left; line-height: 7em;width: 7em;height:7em&quot;&gt;warning&lt;/div&gt;
+&lt;div class=&quot;info-color-bg text-center&quot; style=&quot;float: left; line-height: 7em;width: 7em;height:7em&quot;&gt;info&lt;/div&gt;
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;alerts&quot;&gt;Alerts&lt;/h2&gt;
+
+&lt;p&gt;With alerts you insert warnings, info-boxes or hints. Use the &lt;em&gt;alert&lt;/em&gt;-include in &lt;em&gt;_includes/&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;alert-box warning &quot;&gt;&lt;p&gt;This is a warning with a &lt;a href=&quot;http://phlow.github.io/feeling-responsive/&quot;&gt;Link&lt;/a&gt; and &lt;em&gt;italic&lt;/em&gt; and &lt;strong&gt;bold&lt;/strong&gt; text.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-box info &quot;&gt;&lt;p&gt;An info box with a &lt;a href=&quot;http://phlow.github.io/feeling-responsive/&quot;&gt;Link&lt;/a&gt; and &lt;em&gt;italic&lt;/em&gt; and &lt;strong&gt;bold&lt;/strong&gt; text.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-box success &quot;&gt;&lt;p&gt;A success box with a &lt;a href=&quot;http://phlow.github.io/feeling-responsive/&quot;&gt;Link&lt;/a&gt; and &lt;em&gt;italic&lt;/em&gt; and &lt;strong&gt;bold&lt;/strong&gt; text.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-box alert &quot;&gt;&lt;p&gt;An alert box with a &lt;a href=&quot;http://phlow.github.io/feeling-responsive/&quot;&gt;Link&lt;/a&gt; and &lt;em&gt;italic&lt;/em&gt; and &lt;strong&gt;bold&lt;/strong&gt; text.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-box terminal &quot;&gt;&lt;p&gt;jekyll -serve&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-box text &quot;&gt;&lt;p&gt;Just a note with a &lt;a href=&quot;http://phlow.github.io/feeling-responsive/&quot;&gt;Link&lt;/a&gt; and &lt;em&gt;italic&lt;/em&gt; and &lt;strong&gt;bold&lt;/strong&gt; text.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
+
+&lt;p&gt;Use them with &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;button&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;Button&lt;/a&gt;
+&lt;a class=&quot;button alert&quot; href=&quot;#&quot;&gt;Alert Button&lt;/a&gt;
+&lt;a class=&quot;button info&quot; href=&quot;#&quot;&gt;Info Button&lt;/a&gt;
+&lt;a class=&quot;button success&quot; href=&quot;#&quot;&gt;Success Button&lt;/a&gt;
+&lt;a class=&quot;button warning&quot; href=&quot;#&quot;&gt;Warning Button&lt;/a&gt;
+&lt;a class=&quot;button grey&quot; href=&quot;#&quot;&gt;Grey Button&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 27 Nov 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/style-guide/</link>
+        <guid isPermaLink="true">http://localhost:4000/style-guide/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Writing Content Is So Easy</title>
+        <description>&lt;p&gt;&lt;em&gt;Simplicity&lt;/em&gt; makes your live as a writer, blogger and publisher as easy as possible: Just open your editor, save  your post with a &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; like &lt;em&gt;2015-11-26-writing-content-is-so-easy.md&lt;/em&gt; and start writing. &lt;strong&gt;No front matter needed!&lt;/strong&gt;. And the built-in detection of &lt;em&gt;Simplicity&lt;/em&gt; will choose the right template for your content &lt;em&gt;on-the-fly&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;But you’re not reduced to just one default-layout. Thanks to a nifty detection, you can easily add meta-information to front matter and &lt;em&gt;Simplicity&lt;/em&gt; chooses automatically the according template. Need &lt;a href=&quot;http://localhost:4000/video-postings-made-easy/&quot;&gt;an example&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;Imagine, you want to post a youtube video. Just grab the YouTube-URL and the machine does the rest. Your posting &lt;em&gt;2016-08-26-youtube-video.md&lt;/em&gt; could look like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+youtube: https://www.youtube.com/watch?v=8pQAWOCofXo
+---
+My favorite mash-up: Rave-People meeting Benny Hill.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Simplicity&lt;/em&gt; offers you like Tumblr different kinds of post-types:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Regular Postings&lt;/li&gt;
+  &lt;li&gt;Video/Audio Postings&lt;/li&gt;
+  &lt;li&gt;Quotes&lt;/li&gt;
+  &lt;li&gt;Links&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 26 Nov 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/writing-content-is-so-easy/</link>
+        <guid isPermaLink="true">http://localhost:4000/writing-content-is-so-easy/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
