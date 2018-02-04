@@ -5,8 +5,8 @@
     <description>Test Run for my personal blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Feb 2018 09:41:25 +0800</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2018 09:41:25 +0800</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2018 15:23:54 +0800</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2018 15:23:54 +0800</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>
@@ -32,94 +32,173 @@
 
 &lt;p&gt;A car starts from rest at point A and increases its speed at a constant rate as it enters a curve. The magnitude of the total acceleration of the car as it passes point B, which is &lt;script type=&quot;math/tex&quot;&gt;\frac{400}{3}  m&lt;/script&gt; along the curve from point A, is &lt;script type=&quot;math/tex&quot;&gt;2.5 \frac{m}{s^2}&lt;/script&gt;. The radius of curvature at point B is 200 m.&lt;/p&gt;
 
-&lt;p&gt;a.) Determine the normal and tangential components of the acceleration at point B&lt;/p&gt;
+&lt;p&gt;a.) Determine the normal and tangential components of the acceleration at point B &lt;a href=&quot;#ans1&quot;&gt;&lt;em&gt;Answer»&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;b.) If the tangential acceleration at point B is directed downward to the right at an angle of &lt;script type=&quot;math/tex&quot;&gt;36.87^\circ&lt;/script&gt; below the horizontal and the normal acceleration is also directed downward, determine the rectangular components of the acceleration at point B.&lt;/p&gt;
+&lt;p&gt;b.) If the tangential acceleration at point B is directed downward to the right at an angle of &lt;script type=&quot;math/tex&quot;&gt;36.87^\circ&lt;/script&gt; below the horizontal and the normal acceleration is also directed downward, determine the rectangular components of the acceleration at point B. &lt;a href=&quot;#ans2&quot;&gt;&lt;em&gt;Answer»&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;p&gt;&lt;strong&gt;SOLUTION:&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;solution&quot;&gt;SOLUTION:&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Step 1: Draw&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;step-1-draw&quot;&gt;Step 1: Draw&lt;/h2&gt;
 
 &lt;p&gt;Just like in any of our problems, we try to visualize first the problem before solving it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;https://docs.google.com/drawings/d/e/2PACX-1vQjMbD73j9_KiMmq7oeWGkKOHhUWTXvCP4fZF1IKf26vEeqDEP0bt6rzIcLKrOW7Do1V7H5vZ6DG71w/pub?w=470&amp;amp;h=275&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Step 2: Write the Problem&lt;/em&gt;&lt;/strong&gt;
-a.)
-normal acceleration, &lt;script type=&quot;math/tex&quot;&gt;a_{normal}&lt;/script&gt;
-tangential acceleration, &lt;script type=&quot;math/tex&quot;&gt;a_{tan}&lt;/script&gt;&lt;/p&gt;
+&lt;h2 id=&quot;step-2-write-the-problem&quot;&gt;Step 2: Write the Problem&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;**Step 3: Guess&lt;/strong&gt;**
-The first thing you wanna ask yourself is: what are some equations do I know given the problem?&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;normal acceleration, $a_{N}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;tangential acceleration, $a_{tan}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;step-3-guess&quot;&gt;Step 3: Guess&lt;/h2&gt;
+&lt;p&gt;The first thing you wanna ask yourself is: what are some equations do I know given the problem?&lt;/p&gt;
 
 &lt;p&gt;For me, the first equation I can think of is:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{total}^{2} = a_{tan}^{2} + a_{normal}^{2}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{total}^{2} = a_{tan}^{2} + a_{N}^{2}&lt;/script&gt;
 
 &lt;p&gt;at point B,&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2.5^{2} = a_{tan}^{2} + a_{normal}^{2}&lt;/script&gt;
+&lt;div&gt;
+$$
+   \begin{equation} 
+      2.5^{2} = a_{tan}^{2} + a_{N}^{2}
+   \end{equation}
+$$
+&lt;/div&gt;
 
 &lt;p&gt;After writing equation above, I’m stuck. But, when I think about it, I haven’t utilized all the given values:&lt;/p&gt;
 
 &lt;p&gt;Recall if I could just imagine bending the curved path into a straight line[put image], then, perhaps, I could the constant acceleration equations I’ve previously known.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;V = V_{o} + at&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;v = v_{o} + at&lt;/script&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;V^2 = V_{o}^2 + 2a\Delta s&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;v^2 = v_{o}^2 + 2a\Delta s&lt;/script&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s = s_{0} + V_ot + \frac{1}{2}at^2&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;s = s_{0} + v_ot + \frac{1}{2}at^2&lt;/script&gt;
 
-&lt;p&gt;Caveat: the acceleration to be used should be the acceleration along the curve.Hence, tangential acceleration more info: &lt;a href=&quot;http://example.com&quot;&gt;see this link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Caveat: the acceleration to be used should be the acceleration along the curve.Hence, tangential acceleration &lt;a href=&quot;http://example.com&quot;&gt;more info&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;As the time is not given, the most logical first equation is:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;V^2 = V_{o}^2 + 2a_{tan}\Delta s&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;v^2 = v_{o}^2 + 2a_{tan}\Delta s&lt;/script&gt;
 
 &lt;p&gt;We set the point A as the initial point and point B as the final point, hence:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;V^2 = 0 + 2a_{tan} (\frac{400}{3})&lt;/script&gt;
+&lt;div&gt;
+$$
+   \begin{equation} 
+      v^2 = 0 + 2a_{tan} \left( \frac{400}{3} \right)
+   \end{equation}
+$$
+&lt;/div&gt;
 
 &lt;p&gt;We have one more given that we haven’t utilized, radius of curvature at point B. It might be:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{normal} = \frac{v^2}{\rho}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{normal} = \frac{v^2}{200}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{N} = \frac{v^2}{\rho}&lt;/script&gt;
 
 &lt;div&gt;
 $$
-   \begin{array}{lcl} 
-      a_{normal} &amp;amp; = &amp;amp; \frac{v^2}{\rho} \\ 
-      a_{normal} &amp;amp; = &amp;amp; \frac{v^2}{200} 
-   \end{array}
+   \begin{equation} 
+      a_{N} = \frac{v^2}{200}
+   \end{equation}
 $$
 &lt;/div&gt;
-&lt;div&gt;
+
+&lt;p&gt;Substitute equation (3) to (2), we get&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;200 a_{N} = 2a_{tan} \left( \frac{400}{3} \right)&lt;/script&gt;
+
+&lt;div id=&quot;ans1&quot;&gt;
 $$
-  \begin{align}
-    |\psi_1\rangle &amp;amp;= a|0\rangle + b|1\rangle \\
-    |\psi_2\rangle &amp;amp;= c|0\rangle + d|1\rangle
-  \end{align}
+   \begin{equation} 
+      a_{N} = \left( \frac{4}{3} \right) a_{tan} 
+   \end{equation}
 $$
 &lt;/div&gt;
+
+&lt;p&gt;Substituting equation (4) to (1),&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2.5^{2} = a_{tan}^{2} + \left(\frac{4}{3} a_{tan} \right)^2&lt;/script&gt;
+
+&lt;p&gt;from here we get,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{tan} = 1.5 \frac{m}{s^2}&lt;/script&gt;
+
+&lt;p&gt;Using equation (1) and solving for $a_{N}$,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2.5^{2} = 1.5^2 + a_{N}^{2}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{N} = 2.0 \frac{m}{s^2}&lt;/script&gt;
+
+&lt;h2 id=&quot;step-4-check-if-all-problems-are-met&quot;&gt;Step 4: Check if all problems are met&lt;/h2&gt;
+&lt;p&gt;No, as we still have to solve b.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-41-visualize&quot;&gt;Step 4.1: Visualize&lt;/h2&gt;
+&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;https://docs.google.com/drawings/d/e/2PACX-1vRk49nMjsdy_rYC6BnaNh92lW-OtRwLCWbN5_PBR561AvDXILSCfgA_nHMQMYAbFxYD9efX3HRbyM9o/pub?w=470&amp;amp;h=275&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-42-write-the-problem&quot;&gt;Step 4.2: write the problem&lt;/h2&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec{a_{x}}, \vec{a_{y}}&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-43-guess&quot;&gt;Step 4.3: Guess&lt;/h2&gt;
+&lt;p&gt;Just by looking at the diagram above, it seems that what we need to do is to break down the tangential component $a_{tan}$ into its x- and y-component. Similarly, do the same procedure with the normal component&lt;/p&gt;
+
+&lt;p&gt;By inspection,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{a_{tan}} = |\vec{a_{tan}}|\cos(-38.2^\circ) \hat{\imath} + |\vec{a_{tan}}|\sin(-38.2^\circ) \hat{\jmath}&lt;/script&gt;
+
+&lt;p&gt;Note: $\cos(-\theta) = \cos(\theta)$ and $\sin(-\theta) = \sin(\theta) $,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{a_{tan}} = |\vec{a_{tan}}|\cos(38.2^\circ) \hat{\imath} - |\vec{a_{tan}}|\sin(38.2^\circ) \hat{\jmath}&lt;/script&gt;
+
 &lt;div&gt;
 $$
-\begin{align*}
-  &amp;amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  &amp;amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) &amp;amp; \cdots &amp;amp; \phi(e_1, e_n) \\
-      \vdots &amp;amp; \ddots &amp;amp; \vdots \\
-      \phi(e_n, e_1) &amp;amp; \cdots &amp;amp; \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
+   \begin{equation} 
+      \vec{a_{tan}} = 1.5\cos(38.2^\circ) \hat{\imath} - 1.5\sin(38.2^\circ) \hat{\jmath}
+   \end{equation}
+$$
+&lt;/div&gt;
+
+&lt;p&gt;For the normal component $\vec{a_{N}}$,&lt;br /&gt;
+By visual inspection,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{a_{N}} = -|\vec{a_{N}}|\cos(38.2^\circ) \hat{\imath} - |\vec{a_{N}}|\sin(38.2^\circ) \hat{\jmath}&lt;/script&gt;
+
+&lt;div&gt;
+$$
+   \begin{equation} 
+      \vec{a_{N}} = -2.0\cos(38.2^\circ) \hat{\imath} - 2.0\sin(38.2^\circ) \hat{\jmath}
+   \end{equation}
+$$
+&lt;/div&gt;
+
+&lt;p&gt;So, to get the $a_{x}$ we simply get the sum of the x-components of equation (5) and (6),&lt;/p&gt;
+
+&lt;div id=&quot;ans2&quot;&gt;
+$$ 
+    \begin{array}{lcl}
+        a_{x} &amp;amp; = &amp;amp; a_{tan_{x}} + a_{N_{x}} \\ 
+              &amp;amp; = &amp;amp; 1.5\cos(38.2^\circ) + -2.0\cos(38.2^\circ) \\
+              &amp;amp; = &amp;amp; -0.392928 \frac{m}{s^2}
+    \end{array}
+$$
+&lt;/div&gt;
+
+&lt;p&gt;Similarly,&lt;/p&gt;
+&lt;div&gt;
+$$ 
+    \begin{array}{lcl}
+        a_{y} &amp;amp; = &amp;amp; a_{tan_{y}} + a_{N_{y}} \\ 
+              &amp;amp; = &amp;amp; -1.5\sin(38.2^\circ) + - 2.0\sin(38.2^\circ) \\
+              &amp;amp; = &amp;amp; -2.164 \frac{m}{s^2}
+    \end{array}
 $$
 &lt;/div&gt;
 

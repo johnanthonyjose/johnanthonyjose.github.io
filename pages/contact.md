@@ -2,10 +2,10 @@
 title: Contact
 permalink: /contact/
 ---
-To use a contact form along with *Simplicity*, I suggest…
 
-…you use one of the following services. They all have a free plan. My first choice would be Wufoo.
+<form method="POST" action="https://formspree.io/john.anthony.jose@dlsu.edu.ph">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
 
-- [Wufoo](http://www.wufoo.com/)
-- [formspree.io](http://formspree.io/)
-- [Google Forms](https://www.google.de/intl/en/forms/about/)
