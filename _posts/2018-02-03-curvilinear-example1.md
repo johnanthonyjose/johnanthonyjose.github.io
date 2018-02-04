@@ -72,14 +72,15 @@ $$
    \end{array}
 $$
 </div>
-
+<div>
 $$
   \begin{align}
     |\psi_1\rangle &= a|0\rangle + b|1\rangle \\
     |\psi_2\rangle &= c|0\rangle + d|1\rangle
   \end{align}
 $$
-
+</div>
+<div>
 $$
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -96,6 +97,6 @@ $$
     \end{array} \right)
 \end{align*}
 $$
-
+</div>
 [1]: http://example.com
 
