@@ -5,8 +5,8 @@
     <description>Test Run for my personal blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Feb 2018 09:00:10 +0800</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2018 09:00:10 +0800</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2018 09:16:47 +0800</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2018 09:16:47 +0800</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>
@@ -84,26 +84,20 @@ The first thing you wanna ask yourself is: what are some equations do I know giv
 
 &lt;p&gt;We have one more given that we haven’t utilized, radius of curvature at point B. It might be:&lt;/p&gt;
 
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{normal} = \frac{v^2}{\rho}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{normal} = \frac{v^2}{200}&lt;/script&gt;
+
 &lt;p&gt;&lt;span&gt;
 &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 \begin{array}{lcl} a_{normal} &amp; = &amp; \frac{v^2}{\rho} \nonumber \\ a_{normal} &amp; = &amp; \frac{v^2}{200} \nonumber \end{array} %]]&gt;&lt;/script&gt;
 &lt;/span&gt;&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{align*}
-  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
-      \vdots &amp; \ddots &amp; \vdots \\
-      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*} %]]&gt;&lt;/script&gt;
+\begin{align}
+    |\psi_1\rangle &amp;= a|0\rangle + b|1\rangle \\
+    |\psi_2\rangle &amp;= c|0\rangle + d|1\rangle
+  \end{align} %]]&gt;&lt;/script&gt;
 
 </description>
         <pubDate>Sat, 03 Feb 2018 00:00:00 +0800</pubDate>

@@ -193,26 +193,20 @@ The first thing you wanna ask yourself is: what are some equations do I know giv
 
 <p>We have one more given that we haven’t utilized, radius of curvature at point B. It might be:</p>
 
+<script type="math/tex; mode=display">a_{normal} = \frac{v^2}{\rho}</script>
+
+<script type="math/tex; mode=display">a_{normal} = \frac{v^2}{200}</script>
+
 <p><span>
 <script type="math/tex">% <![CDATA[
 \begin{array}{lcl} a_{normal} & = & \frac{v^2}{\rho} \nonumber \\ a_{normal} & = & \frac{v^2}{200} \nonumber \end{array} %]]></script>
 </span></p>
 
 <script type="math/tex; mode=display">% <![CDATA[
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*} %]]></script>
+\begin{align}
+    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\
+    |\psi_2\rangle &= c|0\rangle + d|1\rangle
+  \end{align} %]]></script>
 
 
 
@@ -302,31 +296,17 @@ The first thing you wanna ask yourself is: what are some equations do I know giv
 
 
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-        MathJax.Hub.Config({
-            config: ["MMLorHTML.js"],
-            extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
-            jax: ["input/TeX"],
-            tex2jax: {
-                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-                processEscapes: false
-            },
-            TeX: {
-                TagSide: "right",
-                TagIndent: ".8em",
-                MultLineWidth: "85%",
-                equationNumbers: {
-                   autoNumber: "AMS",
-                },
-                unicode: {
-                   fonts: "STIXGeneral,'Arial Unicode MS'"
-                }
-            },
-            showProcessingMessages: false
-        });
-</script>
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } }); </script>
+       <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+           tex2jax: {
+             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+             processEscapes: true
+           }
+         });
+       </script>
+       <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+       </head>
 
 </body>
 </html>
