@@ -123,30 +123,34 @@ Just by looking at the diagram above, it seems that what we need to do is to bre
 
 By inspection,
 
-$$ \vec{a_{tan}} = |\vec{a_{tan}}|\cos(-38.2^\circ) \hat{\imath} + |\vec{a_{tan}}|\sin(-38.2^\circ) \hat{\jmath} $$ 
+$$ \vec{a_{tan}} = |\vec{a_{tan}}|\cos(-36.87^\circ) \hat{\imath} + |\vec{a_{tan}}|\sin(-36.87^\circ) \hat{\jmath} $$ 
 
 Note: $\cos(-\theta) = \cos(\theta)$ and $\sin(-\theta) = \sin(\theta) $, 
 
-$$ \vec{a_{tan}} = |\vec{a_{tan}}|\cos(38.2^\circ) \hat{\imath} - |\vec{a_{tan}}|\sin(38.2^\circ) \hat{\jmath} $$ 
+$$ \vec{a_{tan}} = |\vec{a_{tan}}|\cos(36.87^\circ) \hat{\imath} - |\vec{a_{tan}}|\sin(36.87^\circ) \hat{\jmath} $$ 
 
 <div>
 $$
    \begin{equation} 
-      \vec{a_{tan}} = 1.5\cos(38.2^\circ) \hat{\imath} - 1.5\sin(38.2^\circ) \hat{\jmath}
+      \vec{a_{tan}} = 1.5\cos(36.87^\circ) \hat{\imath} - 1.5\sin(36.87^\circ) \hat{\jmath}
    \end{equation}
 $$
 </div>
 
 
 For the normal component $\vec{a_{N}}$,<br  />
-By visual inspection,
+By visual inspection, the angle between x- and y- component is $ 90^\circ$, hence the angle between the tangential component and y-component is equal to $ 90^\circ - 36.87^\circ = 53.13^\circ$
 
-$$ \vec{a_{N}} = -|\vec{a_{N}}|\cos(38.2^\circ) \hat{\imath} - |\vec{a_{N}}|\sin(38.2^\circ) \hat{\jmath} $$ 
+It should be noted that the angle between tangential and normal component is equal to $ 90^\circ$, this means that the angle between the normal component and y-component is equal to $ 90^\circ - 53.13^\circ = 36.87^\circ$
+
+Therefore,
+
+$$ \vec{a_{N}} = -|\vec{a_{N}}|\sin(36.87^\circ) \hat{\imath} - |\vec{a_{N}}|\cos(36.87^\circ) \hat{\jmath} $$ 
 
 <div>
 $$
    \begin{equation} 
-      \vec{a_{N}} = -2.0\cos(38.2^\circ) \hat{\imath} - 2.0\sin(38.2^\circ) \hat{\jmath}
+      \vec{a_{N}} = -2.0\sin(36.87^\circ) \hat{\imath} - 2.0\cos(36.87^\circ) \hat{\jmath}
    \end{equation}
 $$
 </div>
@@ -158,8 +162,8 @@ So, to get the $a_{x}$ we simply get the sum of the x-components of equation (5)
 $$ 
     \begin{array}{lcl}
         a_{x} & = & a_{tan_{x}} + a_{N_{x}} \\ 
-              & = & 1.5\cos(38.2^\circ) + -2.0\cos(38.2^\circ) \\
-              & = & -0.392928 \frac{m}{s^2}
+              & = & 1.5\cos(36.87^\circ) + -2.0\sin(36.87^\circ) \\
+              & = & 0 \frac{m}{s^2}
     \end{array}
 $$
 </div>
@@ -169,8 +173,8 @@ Similarly,
 $$ 
     \begin{array}{lcl}
         a_{y} & = & a_{tan_{y}} + a_{N_{y}} \\ 
-              & = & -1.5\sin(38.2^\circ) + - 2.0\sin(38.2^\circ) \\
-              & = & -2.164 \frac{m}{s^2}
+              & = & -1.5\sin(36.87^\circ) + - 2.0\cos(36.87^\circ) \\
+              & = & -2.5 \frac{m}{s^2}
     \end{array}
 $$
 </div>

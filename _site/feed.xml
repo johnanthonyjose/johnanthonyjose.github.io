@@ -5,8 +5,8 @@
     <description>Test Run for my personal blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Feb 2018 15:23:54 +0800</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2018 15:23:54 +0800</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2018 16:07:05 +0800</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2018 16:07:05 +0800</lastBuildDate>
     <generator>Jekyll v3.7.2</generator>
     
       <item>
@@ -152,29 +152,33 @@ $$
 
 &lt;p&gt;By inspection,&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{a_{tan}} = |\vec{a_{tan}}|\cos(-38.2^\circ) \hat{\imath} + |\vec{a_{tan}}|\sin(-38.2^\circ) \hat{\jmath}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{a_{tan}} = |\vec{a_{tan}}|\cos(-36.87^\circ) \hat{\imath} + |\vec{a_{tan}}|\sin(-36.87^\circ) \hat{\jmath}&lt;/script&gt;
 
 &lt;p&gt;Note: $\cos(-\theta) = \cos(\theta)$ and $\sin(-\theta) = \sin(\theta) $,&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{a_{tan}} = |\vec{a_{tan}}|\cos(38.2^\circ) \hat{\imath} - |\vec{a_{tan}}|\sin(38.2^\circ) \hat{\jmath}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{a_{tan}} = |\vec{a_{tan}}|\cos(36.87^\circ) \hat{\imath} - |\vec{a_{tan}}|\sin(36.87^\circ) \hat{\jmath}&lt;/script&gt;
 
 &lt;div&gt;
 $$
    \begin{equation} 
-      \vec{a_{tan}} = 1.5\cos(38.2^\circ) \hat{\imath} - 1.5\sin(38.2^\circ) \hat{\jmath}
+      \vec{a_{tan}} = 1.5\cos(36.87^\circ) \hat{\imath} - 1.5\sin(36.87^\circ) \hat{\jmath}
    \end{equation}
 $$
 &lt;/div&gt;
 
 &lt;p&gt;For the normal component $\vec{a_{N}}$,&lt;br /&gt;
-By visual inspection,&lt;/p&gt;
+By visual inspection, the angle between x- and y- component is $ 90^\circ$, hence the angle between the tangential component and y-component is equal to $ 90^\circ - 36.87^\circ = 53.13^\circ$&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{a_{N}} = -|\vec{a_{N}}|\cos(38.2^\circ) \hat{\imath} - |\vec{a_{N}}|\sin(38.2^\circ) \hat{\jmath}&lt;/script&gt;
+&lt;p&gt;It should be noted that the angle between tangential and normal component is equal to $ 90^\circ$, this means that the angle between the normal component and y-component is equal to $ 90^\circ - 53.13^\circ = 36.87^\circ$&lt;/p&gt;
+
+&lt;p&gt;Therefore,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{a_{N}} = -|\vec{a_{N}}|\sin(36.87^\circ) \hat{\imath} - |\vec{a_{N}}|\cos(36.87^\circ) \hat{\jmath}&lt;/script&gt;
 
 &lt;div&gt;
 $$
    \begin{equation} 
-      \vec{a_{N}} = -2.0\cos(38.2^\circ) \hat{\imath} - 2.0\sin(38.2^\circ) \hat{\jmath}
+      \vec{a_{N}} = -2.0\sin(36.87^\circ) \hat{\imath} - 2.0\cos(36.87^\circ) \hat{\jmath}
    \end{equation}
 $$
 &lt;/div&gt;
@@ -185,8 +189,8 @@ $$
 $$ 
     \begin{array}{lcl}
         a_{x} &amp;amp; = &amp;amp; a_{tan_{x}} + a_{N_{x}} \\ 
-              &amp;amp; = &amp;amp; 1.5\cos(38.2^\circ) + -2.0\cos(38.2^\circ) \\
-              &amp;amp; = &amp;amp; -0.392928 \frac{m}{s^2}
+              &amp;amp; = &amp;amp; 1.5\cos(36.87^\circ) + -2.0\sin(36.87^\circ) \\
+              &amp;amp; = &amp;amp; 0 \frac{m}{s^2}
     \end{array}
 $$
 &lt;/div&gt;
@@ -196,8 +200,8 @@ $$
 $$ 
     \begin{array}{lcl}
         a_{y} &amp;amp; = &amp;amp; a_{tan_{y}} + a_{N_{y}} \\ 
-              &amp;amp; = &amp;amp; -1.5\sin(38.2^\circ) + - 2.0\sin(38.2^\circ) \\
-              &amp;amp; = &amp;amp; -2.164 \frac{m}{s^2}
+              &amp;amp; = &amp;amp; -1.5\sin(36.87^\circ) + - 2.0\cos(36.87^\circ) \\
+              &amp;amp; = &amp;amp; -2.5 \frac{m}{s^2}
     \end{array}
 $$
 &lt;/div&gt;
