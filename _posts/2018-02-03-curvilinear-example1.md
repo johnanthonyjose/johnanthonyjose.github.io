@@ -64,15 +64,37 @@ $$ a_{normal} = \frac{v^2}{\rho} $$
 $$ a_{normal} = \frac{v^2}{200} $$
 
 
-<span>
-$$\begin{array}{lcl} a_{normal} & = & \frac{v^2}{\rho} \nonumber \\ a_{normal} & = & \frac{v^2}{200} \nonumber \end{array}$$
-</span>
+<div>
+$$
+   \begin{array}{lcl} 
+      a_{normal} & = & \frac{v^2}{\rho} \\ 
+      a_{normal} & = & \frac{v^2}{200} 
+   \end{array}
+$$
+</div>
 
 $$
   \begin{align}
     |\psi_1\rangle &= a|0\rangle + b|1\rangle \\
     |\psi_2\rangle &= c|0\rangle + d|1\rangle
   \end{align}
+$$
+
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
 $$
 
 [1]: http://example.com
